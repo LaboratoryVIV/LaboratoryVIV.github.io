@@ -13,12 +13,12 @@
         <meta name="copyright" lang="uk" content="APPDigitalSphere Inc."/>
     </head>
     <frameset rows="60px, , 50px">
-        <frame src="top.php">
+        <frame src="top.html">
         <frameset cols="70px, 155, 75px">
-            <frame src="menu.php">
-            <frame src="content.php" name="content_target">
-            <frame src="news.php">
+            <frame src="menu.html">
+            <frame src="content.html" name="content_target">
+            <frame src="news.html">
         </frameset>
-        <frame src="footer.php">
+        <frame src="footer.html">
     </frameset>
 </html>
