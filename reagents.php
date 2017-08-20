@@ -1,0 +1,184 @@
+<html class="global">
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/global.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/links.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/reagents.css"/>
+        <meta http-equiz="Content-Type" content="text/html" charset="utf-8"/>
+    </head>
+    <body>
+        <h2>Реактиви на складі</h2>
+        <table class="reagents" border="2px">
+            <tr class="trboldcenter">
+                <td>Формула речовини</td>
+                <td>Хімічна назва</td>
+                <td>Тривіальна назва</td>
+                <td>Тип</td>
+                <td>Колір</td>
+                <td>Чистота</td>
+            </tr>
+            <tr>
+                <td class="formula"><a href="elements/Al">Al</a></td>
+                <td>Алюміній</td>
+                <td>---</td>
+                <td>Пластинки</td>
+                <td>Срібний</td>
+                <td>Можливі домішки <a href="reagents/Inorganic/Al2O3">Al<sub>2</sub>O<sub>3</sub></a></td>
+            </tr>
+            <tr>
+                <td class="formula"><a href="reagents/Inorganic/Al2(SO4)3">Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub></a></td>
+                <td>Алюміній сульфат</td>
+                <td>---</td>
+                <td>Порошок</td>
+                <td>?</td>
+                <td>Можливі домішки <a href="reagents/Inorganic/Al2O3">Al<sub>2</sub>O<sub>3</sub></a></td>
+            </tr>
+            <tr>
+                <td class="formula"><a href="reagents/Organic/CH3COOH">CH<sub>3</sub>COOH</a></td>
+                <td>Етанова к-та</td>
+                <td>Оцтова к-та</td>
+                <td>9% (водний р-н)</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td class="formula"><a href="reagents/Organic/(CH3COO)2Cu">(CH<sub>3</sub>COO)<sub>2</sub>Cu</a></td>
+                <td>Купрум(ІІ) ацетат</td>
+                <td>---</td>
+                <td>Кристалічний порошок</td>
+                <td>Темно-синій</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td class="formula"><a href="reagents/Inorganic/CaCl">CaCl</a></td>
+                <td>Кальцій хлорид</td>
+                <td>---</td>
+                <td>10% (водний р-н)</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td class="formula"><a href="reagents/Organic/C2H5OH">C<sub>2</sub>H<sub>5</sub>OH</a></td>
+                <td>Етанол</td>
+                <td>Спирт етиловий</td>
+                <td>70% (водний р-н)</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td class="formula"><a href="reagents/Organic/C2H6OS">C<sub>2</sub>H<sub>6</sub>OS</a></td>
+                <td>Диметилсульфоксид</td>
+                <td>---</td>
+                <td>1% (спиртовий р-н)</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td class="formula"><a href="reagents/Organic/C6H8O7•H2O">C<sub>6</sub>H<sub>8</sub>O<sub>7</sub>•H<sub>2</sub>O</a></td>
+                <td>Цитратна к-та</td>
+                <td>Лимонна к-та</td>
+                <td>Кристалічний порошок</td>
+                <td>Білий</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td class="formula"><a href="reagents/Organic/C6H10O5">C<sub>6</sub>H<sub>10</sub>O<sub>5</sub></a></td>
+                <td>Крохмаль</td>
+                <td>Картопляний крохмаль</td>
+                <td>Порошок</td>
+                <td>Білий</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td class="formula"><a href="reagents/Organic/C7H6O3">C<sub>7</sub>H<sub>6</sub>O<sub>3</sub></a></td>
+                <td>Саліцилова к-та</td>
+                <td></td>
+                <td>2% (спиртовий р-н)</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td class="formula">C<sub>12</sub>H<sub>22</sub>O<sub>11</sub></td>
+                <td>Сахароза</td>
+                <td>Цукор</td>
+                <td>Кристалічний порошок</td>
+                <td>Білий</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td class="formula">C<sub>22</sub>H<sub>30</sub>Cl<sub>2</sub>N<sub>10</sub></td>
+                <td>Хлоргексидину біглюконат</td>
+                <td>---</td>
+                <td>0,05% (водний р-н)</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+
+            <tr>
+                <td class="formula">CuSO<sub>4</sub>•5H<sub>2</sub>O</td>
+                <td>Купрум(ІІ) сульфат пентагідрат</td>
+                <td>Мідний купорос</td>
+                <td>Кристалічний порошок</td>
+                <td>Синій</td>
+                <td>Присутні домішки</td>
+            </tr>
+            <tr>
+                <td class="formula">FeSO<sub>4</sub>•7H<sub>2</sub>O</td>
+                <td>Ферум(ІІ) сульфат гептагідрат</td>
+                <td>Залізний купорос</td>
+                <td>Кристалічний порошок</td>
+                <td>Зелений</td>
+                <td>Можливі домішки оксидів Fe</td>
+            </tr>
+            <tr>
+                <td class="formula">I<sub>2</sub></td>
+                <td>Йод</td>
+                <td>---</td>
+                <td>?% (спиртовий р-н)</td>
+                <td>?</td>
+                <td>Присутні домішки KI</td>
+            </tr>
+            <tr>
+                <td class="formula">KCl</td>
+                <td>Калій хлорид</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td class="formula">NaCl</td>
+                <td>Натрій хлорид</td>
+                <td>Кухонна сіль</td>
+                <td>Кристалічний порошок</td>
+                <td>Білий</td>
+                <td>Домішки I<sub>2</sub></td>
+            </tr>
+            <tr>
+                <td class="formula">NaHCO<sub>3</sub></td>
+                <td>Натрій гідрокарбонат</td>
+                <td>Столова сода, натрій двовуглекислий</td>
+                <td>Порошок</td>
+                <td>Білий</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td class="formula">Na<sub>3</sub>C<sub>6</sub>H<sub>5</sub>O<sub>7</sub></td>
+                <td>Натрій цитрат</td>
+                <td>---</td>
+                <td>Порошок</td>
+                <td>Білий</td>
+                <td>Можливі непрореагувавші домішки NaHCO<sub>3</sub> i C<sub>6</sub>H<sub>8</sub>O<sub>7</sub>•H<sub>2</sub>O</td>
+            </tr>
+            <tr>
+                <td class="formula">NH<sub>3</sub></td>
+                <td>Аміак</td>
+                <td>Нашатирний спирт</td>
+                <td>10% (водний р-н)</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+        </table>
+    </body>
+</html>

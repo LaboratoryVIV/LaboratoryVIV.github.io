@@ -1,0 +1,424 @@
+<html class="global">
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/global.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/links.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/reagents.css"/>
+        <meta http-equiz="Content-Type" content="text/html" charset="utf-8"/>
+        <style>
+            table {
+                background: transparent;
+                table-layout: fixed;
+                text-align: center;
+                align: center;
+            }
+            td {
+                <!--width: 80px;-->
+            }
+            .color_blue {
+                background: #2F80FF;
+            }
+            .color_red {
+                background: #FA5858;
+            }
+            .color_green {
+                background: #67F564;
+            }
+            .color_orange {
+                background: #FE9A2E;
+            }
+            .color_white {
+                background: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Розчинність деяких речовин у воді (при t=25°C) і їх відносні молекулярні або формульні маси</h2>
+        <table class="inorgreagents" border="2px">
+            <tr>
+                <td>Аніони↓</td>
+                <td>Катіони→</td>
+                <td class="inorgreagents_bold">H<sup>+</sup></td>
+                <td class="inorgreagents_bold">NH<sub>4</sub><sup>+</sup></td>
+                <td class="inorgreagents_bold">Li<sup>+</sup></td>
+                <td class="inorgreagents_bold">Rb<sup>+</sup></td>
+                <td class="inorgreagents_bold">K<sup>+</sup></td>
+                <td class="inorgreagents_bold">Ba<sup>2+</sup></td>
+                <td class="inorgreagents_bold">Sr<sup>2+</sup></td>
+                <td class="inorgreagents_bold">Ca<sup>2+</sup></td>
+                <td class="inorgreagents_bold">Na<sup>+</sup></td>
+                <td class="inorgreagents_bold">Mg<sup>2+</sup></td>
+                <td class="inorgreagents_bold">Be<sup>2+</sup></td>
+                <td class="inorgreagents_bold">Al<sup>3+</sup></td>
+                <td class="inorgreagents_bold">Mn<sup>2+</sup></td>
+                <td class="inorgreagents_bold">Zn<sup>2+</sup></td>
+                <td class="inorgreagents_bold">Cr<sup>2+</sup></td>
+                <td class="inorgreagents_bold">Cr<sup>3+</sup></td>
+                <td class="inorgreagents_bold">Fe<sup>2+</sup></td>
+                <td class="inorgreagents_bold">Fe<sup>3+</sup></td>
+                <td class="inorgreagents_bold">Cd<sup>2+</sup></td>
+                <td class="inorgreagents_bold">Co<sup>2+</sup></td>
+                <td class="inorgreagents_bold">Co<sup>3+</sup></td>
+                <td class="inorgreagents_bold">Ni<sup>2+</sup></td>
+                <td class="inorgreagents_bold">Sn<sup>2+</sup></td>
+                <td class="inorgreagents_bold">Pb<sup>2+</sup></td>
+                <td class="inorgreagents_bold">Cu<sup>2+</sup></td>
+                <td class="inorgreagents_bold">Ag<sup>+</sup></td>
+                <td class="inorgreagents_bold">Hg<sup>2+</sup></td>
+            </tr>
+            <tr>
+                <td class="inorgreagents_bold">OH<sup>-</sup></td>
+                <td>Гідроксид</td>
+                <td class="color_blue"><a class="solubility" href="reagents/Inorganic/H2O">18</a></td>
+                <td class="color_blue">35</td>
+                <td class="color_blue">24</td>
+                <td class="color_blue">102</td>
+                <td class="color_blue">56</td>
+                <td class="color_blue">171</td>
+                <td class="color_green">122</td>
+                <td class="color_green">74</td>
+                <td class="color_blue">40</td>
+                <td class="color_orange">58</td>
+                <td class="color_green">43</td>
+                <td class="color_orange">78</td>
+                <td class="color_orange">89</td>
+                <td class="color_orange">99</td>
+                <td class="color_orange">86</td>
+                <td class="color_orange">103</td>
+                <td class="color_orange">90</td>
+                <td class="color_orange">107</td>
+                <td class="color_orange">146</td>
+                <td class="color_orange">93</td>
+                <td class="color_orange">110</td>
+                <td class="color_orange">93</td>
+                <td class="color_orange">153</td>
+                <td class="color_orange">241</td>
+                <td class="color_orange">98</td>
+                <td class="color_red">125</td>
+                <td class="color_red">235</td>
+            </tr>
+            <tr>
+                <td class="inorgreagents_bold">F<sup>-</sup></td>
+                <td>Фторид</td>
+                <td class="color_blue">20</td>
+                <td class="color_blue">37</td>
+                <td class="color_green">26</td>
+                <td class="color_blue">104</td>
+                <td class="color_blue">58</td>
+                <td class="color_green">175</td>
+                <td class="color_orange">126</td>
+                <td class="color_orange">78</td>
+                <td class="color_blue">42</td>
+                <td class="color_orange">62</td>
+                <td class="color_blue">47</td>
+                <td class="color_green">84</td>
+                <td class="color_green">93</td>
+                <td class="color_blue">103</td>
+                <td class="color_green">90</td>
+                <td class="color_orange">109</td>
+                <td class="color_green">94</td>
+                <td class="color_green">113</td>
+                <td class="color_blue">150</td>
+                <td class="color_blue">97</td>
+                <td class="color_red">116</td>
+                <td class="color_blue">97</td>
+                <td class="color_blue">157</td>
+                <td class="color_orange">245</td>
+                <td class="color_blue">102</td>
+                <td class="color_blue">127</td>
+                <td class="color_red">238</td>
+            </tr>
+            <tr>
+                <td class="inorgreagents_bold">Cl<sup>-</sup></td>
+                <td>Хлорид</td>
+                <td class="color_blue">36,5</td>
+                <td class="color_blue">53,5</td>
+                <td class="color_blue">42,5</td>
+                <td class="color_blue">121</td>
+                <td class="color_blue">74,5</td>
+                <td class="color_blue">208</td>
+                <td class="color_blue">159</td>
+                <td class="color_blue">111</td>
+                <td class="color_blue"><a class="solubility" href="reagents/Inorganic/NaCl">58,5</a></td>
+                <td class="color_blue">95</td>
+                <td class="color_blue">80</td>
+                <td class="color_blue">133</td>
+                <td class="color_blue">126</td>
+                <td class="color_blue">136</td>
+                <td class="color_blue">123</td>
+                <td class="color_blue">158</td>
+                <td class="color_blue">127</td>
+                <td class="color_blue">162</td>
+                <td class="color_blue">183</td>
+                <td class="color_blue">130</td>
+                <td class="color_blue">165</td>
+                <td class="color_blue">130</td>
+                <td class="color_blue">190</td>
+                <td class="color_green">278</td>
+                <td class="color_blue">134</td>
+                <td class="color_orange">143</td>
+                <td class="color_blue">272</td>
+            </tr>
+            <tr>
+                <td class="inorgreagents_bold">Br<sup>-</sup></td>
+                <td>Бромід</td>
+                <td class="color_blue">81</td>
+                <td class="color_blue">98</td>
+                <td class="color_blue">87</td>
+                <td class="color_blue">165</td>
+                <td class="color_blue">119</td>
+                <td class="color_blue">297</td>
+                <td class="color_blue">247</td>
+                <td class="color_blue">200</td>
+                <td class="color_blue">103</td>
+                <td class="color_blue">184</td>
+                <td class="color_blue">169</td>
+                <td class="color_blue">267</td>
+                <td class="color_blue">215</td>
+                <td class="color_blue">225</td>
+                <td class="color_red">212</td>
+                <td class="color_blue">292</td>
+                <td class="color_blue">216</td>
+                <td class="color_blue">296</td>
+                <td class="color_blue">272</td>
+                <td class="color_blue">219</td>
+                <td class="color_white">299</td>
+                <td class="color_blue">219</td>
+                <td class="color_blue">279</td>
+                <td class="color_orange">367</td>
+                <td class="color_blue">223</td>
+                <td class="color_orange">188</td>
+                <td class="color_green">360</td>
+            </tr>
+            <tr>
+                <td class="inorgreagents_bold">I<sup>-</sup></td>
+                <td>Йодид</td>
+                <td class="color_blue">128</td>
+                <td class="color_blue">145</td>
+                <td class="color_blue">134</td>
+                <td class="color_blue">212</td>
+                <td class="color_blue">166</td>
+                <td class="color_blue">391</td>
+                <td class="color_blue">341</td>
+                <td class="color_blue">294</td>
+                <td class="color_blue">150</td>
+                <td class="color_blue">278</td>
+                <td class="color_red">263</td>
+                <td class="color_blue">408</td>
+                <td class="color_blue">309</td>
+                <td class="color_blue">319</td>
+                <td class="color_blue">306</td>
+                <td class="color_orange">433</td>
+                <td class="color_blue">310</td>
+                <td class="color_white">?</td>
+                <td class="color_blue">366</td>
+                <td class="color_blue">313</td>
+                <td class="color_white">440</td>
+                <td class="color_blue">313</td>
+                <td class="color_green">373</td>
+                <td class="color_orange">461</td>
+                <td class="color_blue">317</td>
+                <td class="color_orange">235</td>
+                <td class="color_orange">454</td>
+            </tr>
+            <tr>
+                <td class="inorgreagents_bold">S<sup>2-</sup></td>
+                <td>Сульфід</td>
+                <td class="color_green"><a class="solubility" href="reagents/Inorganic/H2S">34</a></td>
+                <td class="color_blue">68</td>
+                <td class="color_blue">46</td>
+                <td class="color_blue">203</td>
+                <td class="color_blue">110</td>
+                <td class="color_green">169</td>
+                <td class="color_red">120</td>
+                <td class="color_green">72</td>
+                <td class="color_blue">78</td>
+                <td class="color_red">56</td>
+                <td class="color_blue">41</td>
+                <td class="color_red">150</td>
+                <td class="color_orange">87</td>
+                <td class="color_orange">97</td>
+                <td class="color_orange">84</td>
+                <td class="color_red">200</td>
+                <td class="color_orange">88</td>
+                <td class="color_red">208</td>
+                <td class="color_orange">144</td>
+                <td class="color_orange">91</td>
+                <td class="color_orange">214</td>
+                <td class="color_orange">91</td>
+                <td class="color_orange">151</td>
+                <td class="color_orange">239</td>
+                <td class="color_orange">96</td>
+                <td class="color_orange">248</td>
+                <td class="color_orange">233</td>
+            </tr>
+            <tr>
+                <td class="inorgreagents_bold">SO<sub>4</sub><sup>2-</sup></td>
+                <td>Сульфат</td>
+                <td class="color_blue"><a class="solubility" href="reagents/Inorganic/H2SO4">98</a></td>
+                <td class="color_blue">132</td>
+                <td class="color_blue">110</td>
+                <td class="color_blue">267</td>
+                <td class="color_blue">174</td>
+                <td class="color_orange"><a class="solubility" href="reagents/Inorganic/BaSO4">233</a></td>
+                <td class="color_orange">184</td>
+                <td class="color_green">136</td>
+                <td class="color_blue">142</td>
+                <td class="color_blue">120</td>
+                <td class="color_blue">105</td>
+                <td class="color_blue"><a class="solubility" href="reagents/Inorganic/Al2(SO4)3">342</a></td>
+                <td class="color_blue">151</td>
+                <td class="color_blue">161</td>
+                <td class="color_blue">148</td>
+                <td class="color_blue">392</td>
+                <td class="color_blue"><a class="solubility" href="reagents/Inorganic/FeSO4">152</td>
+                <td class="color_blue">400</td>
+                <td class="color_blue">208</td>
+                <td class="color_blue">155</td>
+                <td class="color_red">406</td>
+                <td class="color_blue">155</td>
+                <td class="color_blue">215</td>
+                <td class="color_orange">303</td>
+                <td class="color_blue"><a class="solubility" href="reagents/Inorganic/CuSO4">160</a></td>
+                <td class="color_green">312</td>
+                <td class="color_red">297</td>
+            </tr>
+            <tr>
+                <td class="inorgreagents_bold">HSO<sub>4</sub><sup>-</sup></td>
+                <td>Гідросульфат</td>
+                <td class="color_blue"><a class="solubility" href="reagents/Inorganic/H2SO4">98</a></td>
+                <td class="color_blue">115</td>
+                <td class="color_blue">104</td>
+                <td class="color_blue">182</td>
+                <td class="color_blue">136</td>
+                <td class="color_white">?</td>
+                <td class="color_red">282</td>
+                <td class="color_white">?</td>
+                <td class="color_blue">120</td>
+                <td class="color_white">?</td>
+                <td class="color_white">?</td>
+                <td class="color_white">?</td>
+                <td class="color_white">249</td>
+                <td class="color_white">259</td>
+                <td class="color_white">?</td>
+                <td class="color_white">?</td>
+                <td class="color_white">?</td>
+                <td class="color_white">?</td>
+                <td class="color_white">?</td>
+                <td class="color_white">?</td>
+                <td class="color_white">?</td>
+                <td class="color_white">?</td>
+                <td class="color_white">?</td>
+                <td class="color_blue">401</td>
+                <td class="color_white">?</td>
+                <td class="color_white">205</td>
+                <td class="color_white">?</td>
+            </tr>
+            <tr>
+                <td class="inorgreagents_bold">SO<sub>3</sub><sup>2-</sup></td>
+                <td>Сульфіт</td>
+                <td class="color_blue">82</td>
+                <td class="color_blue">116</td>
+                <td class="color_blue">94</td>
+                <td class="color_blue">251</td>
+                <td class="color_blue">158</td>
+                <td class="color_orange">217</td>
+                <td class="color_orange">168</td>
+                <td class="color_orange">120</td>
+                <td class="color_blue">126</td>
+                <td class="color_green">104</td>
+                <td class="color_blue">89</td>
+                <td class="color_blue">294</td>
+                <td class="color_orange">135</td>
+                <td class="color_orange">145</td>
+                <td class="color_white">?</td>
+                <td class="color_red">344</td>
+                <td class="color_orange">136</td>
+                <td class="color_white">?</td>
+                <td class="color_orange">192</td>
+                <td class="color_orange">139</td>
+                <td class="color_white">?</td>
+                <td class="color_orange">139</td>
+                <td class="color_orange">199</td>
+                <td class="color_orange">287</td>
+                <td class="color_orange">144</td>
+                <td class="color_orange">296</td>
+                <td class="color_orange">281</td>
+            </tr>
+            <tr>
+                <td class="inorgreagents_bold">ClO<sub>4</sub><sup>-</sup></td>
+                <td>Перхлорат</td>
+                <td class="color_blue">100</td>
+                <td class="color_blue">117</td>
+                <td class="color_blue">106</td>
+                <td class="color_blue">185</td>
+                <td class="color_blue">138</td>
+                <td class="color_blue">336</td>
+                <td class="color_blue">287</td>
+                <td class="color_blue">239</td>
+                <td class="color_blue">122</td>
+                <td class="color_blue">223</td>
+                <td class="color_blue">208</td>
+                <td class="color_blue">325</td>
+                <td class="color_blue">254</td>
+                <td class="color_blue">264</td>
+                <td class="color_blue">251</td>
+                <td class="color_blue">350</td>
+                <td class="color_blue">Fe(ClO<sub>4</sub>)<sub>2<sub></td>
+                <td class="color_blue">Fe(ClO<sub>4</sub>)<sub>3<sub></td>
+                <td class="color_blue">Cd(ClO<sub>4</sub>)<sub>2<sub></td>
+                <td class="color_blue">Co(ClO<sub>4</sub>)<sub>2<sub></td>
+                <td class="color_blue">Co(ClO<sub>4</sub>)<sub>3<sub></td>
+                <td class="color_blue">Ni(ClO<sub>4</sub>)<sub>2<sub></td>
+                <td class="color_blue">?</td>
+                <td class="color_blue">Pb(ClO<sub>4</sub>)<sub>2<sub></td>
+                <td class="color_blue">Cu(ClO<sub>4</sub>)<sub>2<sub></td>
+                <td class="color_blue">AgClO<sub>4</sub></td>
+                <td class="color_blue">Hg(ClO<sub>4</sub>)<sub>2<sub></td>
+            </tr>
+            <!--<tr>
+                <td class="inorgreagents_bold">ClO<sub>3</sub><sup>-</sup></td>
+                <td>Хлорат</td>
+                <td>HClO<sub>3</sub></td>
+                <td>NH<sub>3</sub>ClO<sub>4</sub></td>
+                <td>LiClO<sub>3</sub></td>
+                <td>RbClO<sub>3</sub></td>
+                <td>KClO<sub>3</sub></td>
+                <td>Ba(ClO<sub>3</sub>)<sub>2<sub></td>
+                <td>Sr(ClO<sub>3</sub>)<sub>2<sub></td>
+                <td>Ca(ClO<sub>3</sub>)<sub>2<sub></td>
+                <td>NaClO<sub>3</sub></td>
+                <td>Mg(ClO<sub>3</sub>)<sub>2<sub></td>
+                <td>Be(ClO<sub>3</sub>)<sub>2<sub></td>
+                <td>Al(ClO<sub>3</sub>)<sub>3<sub></td>
+                <td>Mn(ClO<sub>3</sub>)<sub>2<sub></td>
+                <td>Zn(ClO<sub>3</sub>)<sub>2<sub></td>
+                <td>?</td>
+                <td>Cr(ClO<sub>3</sub>)<sub>3<sub></td>
+                <td>?</td>
+                <td>?</td>
+                <td>Cd(ClO<sub>3</sub>)<sub>2<sub></td>
+                <td>Co(ClO<sub>3</sub>)<sub>2<sub></td>
+                <td>?</td>
+                <td>Ni(ClO<sub>3</sub>)<sub>2<sub></td>
+                <td>?</td>
+                <td>Pb(ClO<sub>3</sub>)<sub>2<sub></td>
+                <td>Cu(ClO<sub>3</sub>)<sub>2<sub></td>
+                <td>AgClO<sub>3</sub></td>
+                <td>Hg(ClO<sub>3</sub>)<sub>2<sub></td>
+            </tr>-->
+        </table>
+        <h4>Умовні позначення</h4>
+        <table class="inorgreagents" border="2px">
+            <tr>
+                <td class="color_blue">Розчинна</td>
+                <td class="color_green">Малорозчинна</td>
+                <td class="color_orange">Нерозчинна</td>
+                <td class="color_white">Немає даних про розчинність</td>
+                <td class="color_white">? - Речовина не існує</td>
+                <td class="color_red">Речовина реагує з водою</td>
+            </tr>
+        </table>
+    </body>
+</html>

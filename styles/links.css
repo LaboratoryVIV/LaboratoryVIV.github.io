@@ -1,0 +1,25 @@
+a.inorgreagents:link {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 14px;
+}
+a.linkclass:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+a.linkclass:visited, a.inorgreagents:visited { 
+    color: blue;
+    text-decoration: none;
+}
+a.linkclass:hover, a.inorgreagents:hover {
+    color: red;
+    text-decoration: none;
+}
+a.solubility:link, a.solubility:visited, a.solubility:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}

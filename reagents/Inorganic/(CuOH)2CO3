@@ -1,0 +1,44 @@
+<html class="global">
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/global.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/links.css"/>
+        <meta http-equiz="Content-Type" content="text/html" charset="utf-8"/>
+    </head>
+    <body>
+        <h2>Купрум(ІІ) гідроксокарбонат</h2>
+        <h3>Основний карбонат міді(ІІ)</h3>
+        <p><b>Гидроксокарбонат меди(II)</b> — неорганическое соединение, основная соль металла меди и угольной кислоты с формулой (CuOH)<sub>2</sub>CO<sub>3</sub>, тёмно-зелёные кристаллы, не растворимые в воде.</p>
+
+        <h4>Получение</h4>
+        <p>В природе встречается минерал малахит, некоторые разновидности — практически чистый (CuOH)<sub>2</sub>CO<sub>3</sub>.Медь во влажном воздухе медленно реагирует с кислородом и диоксидом углерода:</p>
+        <h5>2Cu + CO<sub>2</sub> + O<sub>2</sub> + H<sub>2</sub>O → (CuOH)<sub>2</sub>CO<sub>3↓</sub></h5>
+        <p>Пропускание углекислоты через суспензию гидроксида меди:</p>
+        <h5>2Cu(OH)<sub>2</sub> + CO<sub>2</sub> → (CuOH)<sub>2</sub>CO<sub>3</sub>↓ +H<sub>2</sub>O</h5>
+        <p>Реакция сульфата меди и гидрокарбоната натрия:</p>
+        <h5>2CuSO<sub>4</sub> + 4NaHCO<sub>3</sub> → (CuOH)<sub>2</sub>CO<sub>3</sub>↓ + 2Na<sub>2</sub>SO<sub>4</sub> + 3CO<sub>2</sub>↑ +H<sub>2</sub>O</h5>
+
+        <h4>Физические свойства</h4>
+        <p>Дигидроксокарбонат меди(II) образует тёмно-зелённые кристаллы моноклинной сингонии, пространственная группа P 21/a, параметры ячейки a = 0,9502 нм, b = 1,1974 нм, c = 0,3240 нм, β = 98,75°, Z = 4.
+        Нерастворим в воде, р ПР = 33,11.</p>
+
+        <h4>Химические свойства</h4>
+        <p>Разлагается при нагревании до 180-200°С:</p>
+        <h5>(CuOH)<sub>2</sub>CO<sub>3</sub> → 2CuO + CO<sub>2</sub>↑ + H<sub>2</sub>O</h5>
+        <p>Разлагается горячей водой (100°C):</p>
+        <h5>(CuOH)<sub>2</sub>CO<sub>3</sub> → 2CuO + CO<sub>2</sub>↑ + H<sub>2</sub>O</h5>
+        <p>Реагирует с кислотами:</p>
+        <h5>(CuOH)<sub>2</sub>CO<sub>3</sub> + 4HCl → 2CuCl<sub>2</sub>+ CO<sub>2</sub>↑ + 3H<sub>2</sub>O</h5>
+        <h5>(CuOH)<sub>2</sub>CO<sub>3</sub> + CH<sub>3</sub>COOH → 2Cu(CH<sub>3</sub>COO)<sub>2</sub> + CO<sub>2</sub>↑ + 3H<sub>2</sub>O</h5>
+        <p>Реагирует с солями аммония и раствором аммиака:</p>
+        <h5>(CuOH)<sub>2</sub>CO<sub>3</sub> + 4NH<sub>4</sub>Cl (100°C)→ 2CuCl<sub>2</sub> + CO<sub>2</sub>↑ + 4NH<sub>3</sub>↑ + 3H<sub>2</sub>O</h5>
+        <h5>(CuOH)<sub>2</sub>CO<sub>3</sub> + 8NH<sub>3</sub>•H<sub>2</sub>O → [Cu(NH<sub>3</sub>)<sub>4</sub>]CO<sub>3</sub> + [Cu(NH<sub>3</sub>)<sub>4</sub>](OH)<sub>2</sub> + 8H<sub>2</sub>O</h5>
+        <p>Реагирует с цианистым калием:</p>
+        <h5>(CuOH)<sub>2</sub>CO<sub>3</sub> + 8KCN → 2K<sub>2</sub>[Cu(CN)<sub>4</sub>]+K<sub>2</sub>CO<sub>3</sub>+2KOH</h5>
+        <p>Реагирует с углекислотой под давлением:</p>
+        <h5>(CuOH)<sub>2</sub>CO<sub>3</sub> + CO<sub>2</sub> → 2CuCO<sub>3</sub> + H<sub>2</sub>O</h5>
+        <p>Растворяется в избытке горячего концентрированного раствора с карбонатом натрия с образованием синего раствора, при охлаждении из которого кристаллизуется голубой карбонатный комплекс меди:</p>
+        <h5>(CuOH)<sub>2</sub>CO<sub>3</sub> + 3Na<sub>2</sub>CO<sub>3</sub> → 2Na<sub>2</sub>[Cu(CO<sub>3</sub>)<sub>2</sub>]+2NaOH
+    </body>
+</html>

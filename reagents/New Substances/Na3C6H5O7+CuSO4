@@ -1,0 +1,13 @@
+<html class="global">
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/global.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/links.css"/>
+        <meta http-equiz="Content-Type" content="text/html" charset="utf-8"/>
+    </head>
+    <body>
+        <h2>Купрум(ІІ) цитрат і натрій сульфат</h2>
+        <p><b>2Na<sub>3</sub>C<sub>6</sub>H<sub>5</sub>O<sub>7</sub> + 3CuSO<sub>4</sub> → Cu<sub>3</sub>(C<sub>6</sub>H<sub>5</sub>O<sub>7</sub>)<sub>2</sub> + 3Na<sub>2</sub>SO<sub>4</sub></b></p>
+    </body>
+</html>
