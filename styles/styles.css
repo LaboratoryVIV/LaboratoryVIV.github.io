@@ -15,11 +15,54 @@ h4 {
     text-align: left;
     font-size: 15px;
 }
-footer {
-    text-align: center;
-    font-size: 12px;
-    font-weight: bold;
-}
 p {
     font-size: 14px;
+}
+
+a.inorgreagents:link {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 14px;
+}
+a.linkclass:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+a.linkclass:visited, a.inorgreagents:visited { 
+    color: blue;
+    text-decoration: none;
+}
+a.linkclass:hover, a.inorgreagents:hover {
+    color: red;
+    text-decoration: none;
+}
+a.solubility:link, a.solubility:visited, a.solubility:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu {
+    margin-left: 0px;
+}
+.list {
+    margin: 3px, 3px, 3px, 3px;
+    font-size: 14px;
+}
+.news {
+    margin-left: -5px;
+    margin-bottom: 2px;
+    font-weight: none;
+    font-size: 14px;
+}
+
+.img {
+    border: 3px outset grey;
+    margin: 20px, 20px, 20px, 20px;
+}
+.img:hover {
+    border: 3px outset blue;
 }
