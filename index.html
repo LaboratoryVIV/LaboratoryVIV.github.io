@@ -9,12 +9,16 @@
         <meta name="description" content="Laboratory VIV Project Site"/>
         <meta name="copyright" lang="uk" content="APPDigitalSphere Inc."/>
         <style>
-            #header_container {
+        	div.container {
+        		margin: 0, 0, 0, 0;
+        	}
+
+            div#header_container {
                 width: 100%;
                 height: all;
                 background: #00A2E8;
             }
-            .header {
+            div.header {
             	margin: 10px, 10px, 10px, 10px;
             	background: #99D9EA;
             }
@@ -55,13 +59,13 @@
             }
 
 
-            #menu_container {
+            div#menu_container {
                 width: 250px;
                 height: all;
                 background: #00A2E8;
                 float: left;
             }
-            .menu {
+            div.menu {
             	margin: 10px, 10px, 10px, 10px;
             	background: #99D9EA;
             }
@@ -70,7 +74,7 @@
             }
 
 
-            #content_container {
+            div#content_container {
                 width: all;
                 height: all;
                 min-height: 250px;
@@ -78,18 +82,18 @@
                 float: left;
                 background: #00A2E8;
             }
-            .content {
+            div.content {
             	margin: 10px, 10px, 10px, 10px;
             	background: #99D9EA;
             }
 
 
-            #footer_container {
+            div#footer_container {
                 width: 100%;
                 height: all;
                 background: #00A2E8;
             }
-            .footer {
+            div.footer {
             	margin: 10px, 10px, 10px, 10px;
             	background: #99D9EA;
             }
@@ -108,53 +112,55 @@
         </style>
     </head>
     <body>
-        <div class="container" id="header_container">
-	        <div class="header">
-	        	<big>
-		            <topLa>La</topLa>
-		            <topB>B</topB>
-		            <topO>O</topO>
-		            <topsub><sub>R</sub></topsub>
-		            <topAt>At</topAt>
-		            <topO>O</topO>
-		            <topsub><sub>R</sub></topsub>
-		            <topY>Y</topY>
-		            <top5>|||</top5>
-		            <topV>V</topV>
-		            <topI>I</topI>
-		            <top5>(V)</top5>
-		            <sub><sub><iframe id="topframe"></iframe></sub></sub>
-	            </big>
-	        </div>
-        </div>
-
-
-        <div class="container" id="menu_container">
-	        <div class="menu">
-	            <h2>Меню сайту</h2>
-	            <ul class="menu">
-	                <li><a class="linkclass" target="content_target" href="content.html">Головна</li>
-	                <li><a class="linkclass" target="content_target" href="table_of_the_elements.html">Періодична таблиця</li>
-	                <li><a class="linkclass" target="content_target" href="solubility.html">Таблиця розчинності</li>
-	                <li><a class="linkclass" target="content_target" href="prefixes.html">Латинські префікси речовин</li>
-	                <!--<li><a class="linkclass" target="content_target" href="organic_reagents.html">Органічна хімія</li>-->
-	                <!--<li><a class="linkclass" target="content_target" href="help.html">Допомога</li>-->
-	                <li><a class="linkclass" target="content_target" href="about.html">Про проект</li>
-	            </ul>
-	        </div>
-        </div>
-
-
-        <div class="container" id="content_container">
-        	<div class="content" name="content_target" src="table_of_the_elements.html">
-        	
+        <div class="container">
+        	<div id="header_container">
+		        <div class="header">
+		        	<big>
+			            <topLa>La</topLa>
+			            <topB>B</topB>
+			            <topO>O</topO>
+			            <topsub><sub>R</sub></topsub>
+			            <topAt>At</topAt>
+			            <topO>O</topO>
+			            <topsub><sub>R</sub></topsub>
+			            <topY>Y</topY>
+			            <top5>|||</top5>
+			            <topV>V</topV>
+			            <topI>I</topI>
+			            <top5>(V)</top5>
+			            <sub><sub><iframe id="topframe"></iframe></sub></sub>
+		            </big>
+		        </div>
         	</div>
         </div>
 
+        <div class="container">
+	        <div id="menu_container">
+		        <div class="menu">
+		            <h2>Меню сайту</h2>
+		            <ul class="menu">
+		                <li><a class="linkclass" target="content_target" href="content.html">Головна</li>
+		                <li><a class="linkclass" target="content_target" href="table_of_the_elements.html">Періодична таблиця</li>
+		                <li><a class="linkclass" target="content_target" href="solubility.html">Таблиця розчинності</li>
+		                <li><a class="linkclass" target="content_target" href="prefixes.html">Латинські префікси речовин</li>
+		                <!--<li><a class="linkclass" target="content_target" href="organic_reagents.html">Органічна хімія</li>-->
+		                <!--<li><a class="linkclass" target="content_target" href="help.html">Допомога</li>-->
+		                <li><a class="linkclass" target="content_target" href="about.html">Про проект</li>
+		            </ul>
+		        </div>
+	        </div>
 
-        <div class="container" id="footer_container">
-	        <div class="footer">
-	            <footer>Copyright &copy, Laboratory VIV<br>2017</footer>
+	        <div id="content_container">
+	        	<div class="content" name="content_target" href="table_of_the_elements.html">
+	        	</div>
+	        </div>
+	    </div>
+
+        <div class="container">
+        	<div id="footer_container">
+	        	<div class="footer">
+	            	<footer>Copyright &copy, Laboratory VIV<br>2017</footer>
+	        	</div>
 	        </div>
         </div>
     </body>
