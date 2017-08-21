@@ -9,10 +9,20 @@
         <meta name="description" content="Laboratory VIV Project Site"/>
         <meta name="copyright" lang="uk" content="APPDigitalSphere Inc."/>
         <style>
-            #header {
+        	.container {
+        		margin: 0, 0, 0, 0;
+        	}
+
+
+            #header_container {
                 width: 100%;
                 height: 85px;
                 margin-top: 20px;
+                background: #00A2E8;
+            }
+            .header {
+            	margin: 4px, 4px, 4px, 4px;
+            	background: #99D9EA;
             }
             topLa {
                 color: magenta; 
@@ -36,7 +46,7 @@
                 color: #A349A4;
             }
             topsub {
-                color: black; 
+                color: #000000; 
             }
             top5 {
                 color: lightblue;
@@ -44,38 +54,57 @@
             #topframe {
                 background: url(media/images/icon.png) center no-repeat;
                 background-size: cover;
-                width: 60px;
-                height: 60px;
+                width: 75px;
+                height: 75px;
                 border: none;
                 float: right;
             }
 
-            #menu {
+
+            #menu_container {
                 width: 25%;
                 height: auto;
                 min-height: 250px;
+                background: #00A2E8;
                 float: left;
             }
             .menu {
+            	margin: 4px, 4px, 4px, 4px;
+            	background: #99D9EA;
+            }
+            #menu {
                 margin-left: 0px;
             }
 
-            #content {
+
+            #content_container {
                 width: 75%;
                 height: 500px;
                 min-height: 250px;
                 float: left;
+                background: #00A2E8;
             }
-            #footer {
+            .content {
+            	margin: 4px, 4px, 4px, 4px;
+            	background: #99D9EA;
+            }
+
+
+            #footer_container {
                 width: 100%;
                 height: 150px;
-                background: gray;
+                background: #00A2E8;
+            }
+            .footer {
+            	margin: 4px, 4px, 4px, 4px;
+            	background: #99D9EA;
             }
             footer {
                 text-align: center;
                 font-size: 12px;
                 font-weight: bold;
             }
+
 
             iframe {
                 width: auto;
@@ -85,40 +114,53 @@
         </style>
     </head>
     <body>
-        <div id="header">
-            <h1>
-                <topLa>La</topLa>
-                <topB>B</topB>
-                <topO>O</topO>
-                <topsub><sub>R</sub></topsub>
-                <topAt>At</topAt>
-                <topO>O</topO>
-                <topsub><sub>R</sub></topsub>
-                <topY>Y</topY>
-                <top5>|||</top5>
-                <topV>V</topV>
-                <topI>I</topI>
-                <top5>(V)</top5>
-                <sub><sub><iframe id="topframe"></iframe></sub></sub>
-            </h1>
+        <div class="container" id="header_container">
+	        <div class="header">
+	            <h1>
+	                <topLa>La</topLa>
+	                <topB>B</topB>
+	                <topO>O</topO>
+	                <topsub><sub>R</sub></topsub>
+	                <topAt>At</topAt>
+	                <topO>O</topO>
+	                <topsub><sub>R</sub></topsub>
+	                <topY>Y</topY>
+	                <top5>|||</top5>
+	                <topV>V</topV>
+	                <topI>I</topI>
+	                <top5>(V)</top5>
+	                <sub><sub><iframe id="topframe"></iframe></sub></sub>
+	            </h1>
+	        </div>
         </div>
-        <div id="menu">
-            <h2>Меню сайту</h2>
-            <ul class="menu">
-                <li><a class="linkclass" target="content_target" href="content.html">Головна</li>
-                <li><a class="linkclass" target="content_target" href="table_of_the_elements.html">Періодична таблиця</li>
-                <li><a class="linkclass" target="content_target" href="solubility.html">Таблиця розчинності</li>
-                <li><a class="linkclass" target="content_target" href="prefixes.html">Латинські префікси речовин</li>
-                <!--<li><a class="linkclass" target="content_target" href="organic_reagents.html">Органічна хімія</li>-->
-                <!--<li><a class="linkclass" target="content_target" href="help.html">Допомога</li>-->
-                <li><a class="linkclass" target="content_target" href="about.html">Про проект</li>
-            </ul>
+
+        <div class="container" id="menu_container">
+	        <div class="menu">
+	            <h2>Меню сайту</h2>
+	            <ul class="menu">
+	                <li><a class="linkclass" target="content_target" href="content.html">Головна</li>
+	                <li><a class="linkclass" target="content_target" href="table_of_the_elements.html">Періодична таблиця</li>
+	                <li><a class="linkclass" target="content_target" href="solubility.html">Таблиця розчинності</li>
+	                <li><a class="linkclass" target="content_target" href="prefixes.html">Латинські префікси речовин</li>
+	                <!--<li><a class="linkclass" target="content_target" href="organic_reagents.html">Органічна хімія</li>-->
+	                <!--<li><a class="linkclass" target="content_target" href="help.html">Допомога</li>-->
+	                <li><a class="linkclass" target="content_target" href="about.html">Про проект</li>
+	            </ul>
+	        </div>
         </div>
-        <div id="content" name="content_target" src="content.html">
+
+        <div class="container" id="content_container">
+        	<div class="content" name="content_target" src="table_of_the_elements.html">
+        	
+        	</div>
         </div>
+
         <div style="clear: both;"></div>
-        <div id="footer">
-            <footer>Copyright &copy, Laboratory VIV<br>2017</footer>
+
+        <div class="container" id="footer_container">
+	        <div class="footer">
+	            <footer>Copyright &copy, Laboratory VIV<br>2017</footer>
+	        </div>
         </div>
     </body>
 </html>
