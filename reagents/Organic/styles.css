@@ -1,0 +1,47 @@
+html, body {
+    font-family: "Times New Roman", sans-serif;
+    height: 100%;
+}
+h1 {
+    margin-top: 10px;
+    margin-left: 15px;
+    text-align: left;
+}
+h2 {
+    text-align: center;
+    font-size: 22px;
+}
+h3 {
+    text-align: center;
+    font-size: 18px;
+}
+h4 {
+    text-align: left;
+    font-size: 15px;
+}
+p {
+    font-size: 14px;
+}
+
+a.linkclass:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+a.linkclass:visited { 
+    color: blue;
+    text-decoration: none;
+}
+a.linkclass:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.img {
+    border: 3px outset grey;
+    margin: 20px, 20px, 20px, 20px;
+}
+.img:hover {
+    border: 3px outset blue;
+}
