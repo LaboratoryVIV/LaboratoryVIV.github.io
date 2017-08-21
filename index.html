@@ -17,36 +17,107 @@
                 height: 85px;
                 margin-top: 20px;
             }
+            topLa {
+                color: magenta; 
+            }
+            topB {
+                color: orange;
+            }
+            topO {
+                color: blue;
+            }
+            topAt {
+                color: red; 
+            }
+            topY {
+                color: green; 
+            }
+            topV {
+                color: yellow;
+            }
+            topI {
+                color: #A349A4;
+            }
+            topsub {
+                color: black; 
+            }
+            top5 {
+                color: lightblue;
+            }
+            #topframe {
+                background: url(media/images/icon.png) center no-repeat;
+                background-size: cover;
+                width: 60px;
+                height: 60px;
+                border: none;
+                float: right;
+            }
+
+
             #menu {
                 width: 25%;
-                height: 250px;
+                height: auto;
+                min-height: 250px;
                 float: left;
             }
             #content {
-                width: 300px;
-                height: 250px;
+                width: 50%;
+                height: auto;
+                min-height: 250px;
                 float: left;
-            } 
+            }
             #news {
                 width: 25%;
-                height: 250px;
+                height: auto;
+                min-height: 250px;
                 float: left;
             }
             #footer {
                 width: 100%;
-                height: 70px;
+                height: 150px;
             }
+
             iframe {
+                width: 
+                height: auto;
                 border: none;
             }
         </style>
     </head>
     <body>
         <div id="header">
-            <iframe src="top.html"></iframe>
+            <h1>
+                <topLa>La</topLa>
+                <topB>B</topB>
+                <topO>O</topO>
+                <topsub><sub>R</sub></topsub>
+                <topAt>At</topAt>
+                <topO>O</topO>
+                <topsub><sub>R</sub></topsub>
+                <topY>Y</topY>
+                <top5>|||</top5>
+                <topV>V</topV>
+                <topI>I</topI>
+                <top5>(V)</top5>
+                <sub><sub><iframe id="topframe"></iframe></sub></sub>
+            </h1>
         </div>
         <div id="menu">
-            <iframe src="menu.html"></iframe>
+            <h2>Меню сайту</h2>
+            <ul class="menu">
+                <li><a class="linkclass" target="content_target" href="content.html">Головна</li>
+                <li><a class="linkclass" target="content_target" href="table_of_the_elements.html">Періодична таблиця</li>
+                <li><a class="linkclass" target="content_target" href="solubility.html">Таблиця розчинності</li>
+                <li><a class="linkclass" target="content_target" href="prefixes.html">Латинські префікси речовин</li>
+                <!--<li><a class="linkclass" target="content_target" href="organic_reagents.html">Органічна хімія</li>-->
+                <!--<li><a class="linkclass" target="content_target" href="reagents.html">Реактиви на складі</li>-->
+                <!--<li><a class="linkclass" target="content_target" href="equipment.html">Перелік обладнання</li>-->
+                <!--<li><a class="linkclass" target="content_target" href="help.html">Допомога</li>-->
+                <li><a class="linkclass" target="content_target" href="about.html">Про проект</li>
+            </ul>
+            <!--<audio>
+                <source src="sounds/sha.mp3">
+            </audio>-->
         </div>
         <div id="content">
             <iframe name="content_target" src="content.html"></iframe>
@@ -56,7 +127,7 @@
         </div>
         <div style="clear: both;"></div>
         <div id="footer">
-            <iframe src="footer.html"></iframe>
+            <footer>Copyright &copy, Laboratory VIV<br>2017</footer>
         </div>
     </body>
 </html>
