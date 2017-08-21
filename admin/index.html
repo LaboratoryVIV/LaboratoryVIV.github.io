@@ -53,6 +53,7 @@
                 float: right;
             }
 
+
             #menu {
                 width: 25%;
                 height: auto;
@@ -61,6 +62,12 @@
             }
             #content {
                 width: 50%;
+                height: auto;
+                min-height: 250px;
+                float: left;
+            }
+            #news {
+                width: 25%;
                 height: auto;
                 min-height: 250px;
                 float: left;
@@ -98,21 +105,21 @@
         <div id="menu">
             <h2>Меню сайту</h2>
             <ul class="menu">
-                <li><a class="linkclass" target="content_target" href="content.html">Головна</li>
-                <li><a class="linkclass" target="content_target" href="table_of_the_elements.html">Періодична таблиця</li>
-                <li><a class="linkclass" target="content_target" href="solubility.html">Таблиця розчинності</li>
-                <li><a class="linkclass" target="content_target" href="prefixes.html">Латинські префікси речовин</li>
-                <!--<li><a class="linkclass" target="content_target" href="organic_reagents.html">Органічна хімія</li>-->
-                <!--<li><a class="linkclass" target="content_target" href="help.html">Допомога</li>-->
-                <li><a class="linkclass" target="content_target" href="about.html">Про проект</li>
+                <li><a class="linkclass" target="content_target" href="objectives.html">Завдання</li>
+                <li><a class="linkclass" target="content_target" href="reagents.html">Реактиви на складі</li>
+                <li><a class="linkclass" target="content_target" href="equipment.html">Перелік обладнання</li>
+                <li><a class="linkclass" target="content_target" href="about.html">Про панель адміна</li>
             </ul>
         </div>
         <div id="content">
             <iframe name="content_target" src="content.html"></iframe>
         </div>
+        <div id="news">
+            <iframe src="news.html"></iframe>
+        </div>
         <div style="clear: both;"></div>
         <div id="footer">
-            <footer>Copyright &copy, Laboratory VIV<br>2017</footer>
+            <footer>Admin's Panel<br>Copyright &copy, Laboratory VIV<br>2017</footer>
         </div>
     </body>
 </html>
