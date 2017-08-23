@@ -1,6 +1,7 @@
-html, body {
+html {
     font-family: "Times New Roman", sans-serif;
     height: 100%;
+    display: block;
 }
 h1 {
     margin-top: 10px;
