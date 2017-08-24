@@ -7,21 +7,29 @@ h1 {
     margin-top: 10px;
     margin-left: 15px;
     text-align: left;
+    font-style: bold;
 }
 h2 {
     text-align: center;
     font-size: 22px;
+    font-style: bold;
 }
 h3 {
     text-align: center;
     font-size: 18px;
+    font-style: bold;
 }
 h4 {
     text-align: left;
     font-size: 15px;
+    font-style: bold;
 }
 p {
     font-size: 14px;
+}
+iframe {
+    border: none;
+    z-index: 100;
 }
 
 a.inorgreagents:link {

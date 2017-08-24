@@ -1,0 +1,122 @@
+header {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    height: 100px;
+    width: 100%;
+}
+div.header_container {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: #00A2E8;
+    height: inherit;
+}
+div.header {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 40px;
+    background: #99D9EA;
+}
+
+
+
+div.menu_content_container {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    min-height: 500px;
+    width: 100%;
+}
+nav {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: #00A2E8;
+    min-height: inherit;
+    width: 250px;
+}
+div.menu {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: #99D9EA;
+}
+
+article {
+    position: absolute;
+    margin-left: 250px;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: #00A2E8;
+    min-height: inherit;
+    width: auto;
+}
+div.content {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: #99D9EA;
+}
+iframe#content {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    height: inherit;
+    width: inherit;
+}
+
+
+
+footer {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    height: 100px;
+    width: 100%;
+}
+div.footer_container {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: #00A2E8;
+    height: inherit;
+}
+div.footer_text {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: #99D9EA;
+}
+div.footer_images {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    float: right;
+    height: 100px;
+    width: 100px;
+}

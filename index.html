@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>Laboratory VIV</title>
+        <link rel="stylesheet" type="text/css" href="styles/reset000.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/blocks.css"/>
         <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
         <link rel="icon" type="image/vnd.microsoft.icon" href="media/images/icon.ico"/>
         <meta http-equiz="Content-Type" content="text/html" charset="utf-8"/>
@@ -9,220 +11,78 @@
         <meta name="description" content="Laboratory VIV Project Site"/>
         <meta name="copyright" lang="uk" content="APPDigitalSphere Inc."/>
         <style>
-        	div.header_container {
-            	margin-top: 5px;
-            	margin-left: 5px;
-            	margin-right: 5px;
-            	margin-bottom: 5px;
-        		height: 100px;
-                width: 100%;
-        	}
-            div#header_container {
-            	margin-top: 5px;
-            	margin-left: 5px;
-            	margin-right: 5px;
-            	margin-bottom: 5px;
-                height: inherit;
-                background: #00A2E8;
-            }
-            div.header {
-            	margin-top: 5px;
-            	margin-left: 5px;
-            	margin-right: 5px;
-            	margin-bottom: 5px;
-            	background: #99D9EA;
-            }
-
-
-
-            div.menu_content_container {
-            	margin-left: 5px;
-            	margin-right: 5px;
-            	width: 100%;
-                min-height: 400px;
-            }
-
-            div#menu_container {
-            	margin-top: 5px;
-            	margin-left: 5px;
-            	margin-bottom: 5px;
-            	min-height: 400px;
-                width: 250px;
-                background: #00A2E8;
-                float: left;
-            }
-            div.menu {
-            	margin-top: 5px;
-            	margin-left: 5px;
-            	margin-right: 5px;
-            	margin-bottom: 5px;
-                min-height: 400px;
-            	background: #99D9EA;
-            }
-
-            div#content_container {
-            	margin-top: 5px;
-                margin-left: 255px;
-            	margin-right: 5px;
-            	margin-bottom: 5px;
-                min-height: 400px;
-                background: #00A2E8;
-                float: left;
-            }
-            div.content {
-            	margin-top: 5px;
-            	margin-left: 5px;
-            	margin-right: 5px;
-            	margin-bottom: 5px;
-                min-height: 400px;
-            	background: #99D9EA;
-            }
-
-
-
-            div.footer_container {
-            	margin-top: 5px;
-            	margin-left: 5px;
-            	margin-right: 5px;
-            	margin-bottom: 5px;a
-            	height: 80px;
-                width: 100%;
-            }
-            div#footer_container {
-            	margin-top: 5px;
-            	margin-left: 5px;
-            	margin-right: 5px;
-            	margin-bottom: 5px;
-                height: inherit;
-                background: #00A2E8;
-            }
-            div.footer {
-            	margin-top: 5px;
-            	margin-left: 5px;
-            	margin-right: 5px;
-            	margin-bottom: 5px;
-            	background: #99D9EA;
-            }
-
-
-
             big {
-            	font-size: 45px;
-            	font-weight: bolder;
-            }
-            .topLa {
-                color: magenta; 
-            }
-            .topB {
-                color: orange;
-            }
-            .topO {
-                color: blue;
-            }
-            .topAt {
-                color: red; 
-            }
-            .topY {
-                color: green; 
-            }
-            .topV {
-                color: yellow;
-            }
-            .topI {
-                color: #A349A4;
-            }
-            .topsub {
-                color: #000000; 
-            }
-            .top5 {
-                color: darkgrey;
-            }
-            .top_image1 {
-                background: url(media/images/icon.png) center no-repeat;
-                background-size: cover;
-                width: 50px;
-                height: 50px;
-                border: none;
-                float: right;
-            }
-
-            #menu {
-                margin-left: 0px;
-            }
-            footer {
-                text-align: center;
-                font-size: 12px;
+                font-size: 42px;
                 font-weight: bold;
             }
-            .footer_image1 {
-                background: url(media/images/icon.png) center no-repeat;
-                background-size: cover;
-                width: 50px;
-                height: 50px;
-                border: none;
-                float: right;
-            }
-            iframe {
-                border: none;
+            .footer_text1 {
+                margin-left: 20px;
+                text-align: left;
+                font-size: 12px;
+                font-weight: bold;
             }
         </style>
     </head>
     <body>
-        <div class="header_container">
-        	<div id="header_container">
-		        <div class="header">
-		        	<big>
-			            <span class="topLa">La</span>
-			            <span class="topB">B</span>
-			            <span class="topO">O</span>
-			            <span class="topsub"><sub>R</sub></span>
-			            <span class="topAt">At</span>
-			            <span class="topO">O</span>
-			            <span class="topsub"><sub>R</sub></span>
-			            <span class="topY">Y</span>
-			            <span class="top5">|||</span>
-			            <span class="topV">V</span>
-			            <span class="topI">I</span>
-			            <span class="top5">(V)</span>
-			            <sub><sub><iframe class="top_image1"></iframe></sub></sub>
-		            </big>
-		        </div>
-        	</div>
-        </div>
+        <header>
+            <div class="header_container">
+                <div class="header">
+                    <big>
+                        <span style="color: magenta;">La</span>
+                        <span style="color: orange;">B</span>
+                        <span style="color: blue;">O</span>
+                        <span style="color: #000000;"><sub>R</sub></span>
+                        <span style="color: red;">At</span>
+                        <span style="color: blue;">O</span>
+                        <span style="color: #000000;"><sub>R</sub></span>
+                        <span style="color: green;">Y</span>
+                        <span style="color: darkgrey;">|||</span>
+                        <span style="color: yellow;">V</span>
+                        <span style="color: #A349A4;">I</span>
+                        <span style="color: darkgrey;">(V)</span>
+                        <sub><sub><iframe style="background: url(media/images/icon.png) center no-repeat; background-size: cover; width: 50px; height: 50px; border: none; float: right;"></iframe></sub></sub>
+                    </big>
+                </div>
+            </div>
+        </header>
 
 
         <div class="menu_content_container">
-	        <div id="menu_container">
-		        <div class="menu">
-		            <h2>Меню сайту</h2>
-		            <ul class="menu">
-		                <li><a class="linkclass" target="content_target" href="content.html">Головна</li>
-		                <li><a class="linkclass" target="content_target" href="table_of_the_elements.html">Періодична таблиця</li>
-		                <li><a class="linkclass" target="content_target" href="solubility.html">Таблиця розчинності</li>
-		                <li><a class="linkclass" target="content_target" href="prefixes.html">Латинські префікси речовин</li>
-		                <!--<li><a class="linkclass" target="content_target" href="organic_reagents.html">Органічна хімія</li>-->
-		                <!--<li><a class="linkclass" target="content_target" href="help.html">Допомога</li>-->
-		                <li><a class="linkclass" target="content_target" href="about.html">Про проект</li>
-		            </ul>
-		        </div>
-	        </div>
+            <nav>
+                <div class="menu">
+                    <h2>Меню сайту</h2>
+                    <ul class="menu">
+                        <li><a class="linkclass" target="content_target" href="content.html">Головна</a></li>
+                        <li><a class="linkclass" target="content_target" href="table_of_the_elements.html">Перiодична таблиця</a></li>
+                        <li><a class="linkclass" target="content_target" href="solubility.html">Таблиця розчинностi</a></li>
+                        <li><a class="linkclass" target="content_target" href="prefixes.html">Латинськi префiкси речовин</a></li>
+                        <!--<li><a class="linkclass" target="content_target" href="organic_reagents.html">Органiчна хiмiя</a></li>-->
+                        <!--<li><a class="linkclass" target="content_target" href="help.html">Допомога</a></li>-->
+                        <li><a class="linkclass" target="content_target" href="about.html">Про проект</a></li>
+                    </ul>
+                </div>
+            </nav>
 
-	        <div id="content_container">
-	        	<div class="content" name="content_target" href="table_of_the_elements.html"></div>
-	        </div>
-	    </div>
+            <article>
+                <div class="content">
+                    <iframe id="content" name="content_target" src="table_of_the_elements.html"></iframe>
+                </div>
+            </article>
+        </div>
 
 
 	    <div style="clear: both; visibility: none;"></div>
 
 
-        <div class="footer_container">
-        	<div id="footer_container">
-	        	<div class="footer">
-	            	<footer>Copyright &copy, Laboratory VIV<br>2017</footer>
-	            	<span class="footer_image1"></span>
-	        	</div>
-	        </div>
-        </div>
+	    <footer>
+            <div class="footer_container">
+                <div class="footer_text">
+                    <p class="footer_text1">Copyright &copy, Laboratory VIV<br>2017</p>
+                </div>
+                <div class="footer_images">
+                    <iframe style="width: 50px; height: 50px; border: none; float: right;" src="media/images/icon.png"></iframe>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
