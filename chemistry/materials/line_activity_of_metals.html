@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../../styles/styles.css"/>
+        <meta content="text/html"; charset="utf-8" http-equiz="Content-Type"/>
+        <style>
+            table, tr, td {
+                border-spacing: 0;
+                border-style: solid;
+                border-color: transparent;
+                background: transparent;
+                table-layout: fixed;
+                text-align: center;
+                margin-top: 20px;
+            }
+            tr {
+                height: 50px;
+            }
+            td {
+                width: 50px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            p {
+                left: 30px;
+                margin-bottom: -2px;
+                font-style: italic;
+                font-size: 16px;
+                text-align: left;
+            }
+            
+            .color_red{background-color:magenta;}
+            .color_white{background-color:yellow;}
+            .color_blue{background-color:lightgreen;}
+            
+            .arrow {
+                position: relative;
+                margin: 0px auto;
+                background: black;
+                height: 1px;
+                width: inherit;
+            }
+            .arrow:before,
+            .arrow:after {
+                position: absolute;
+                top: -4px;
+                right: -15px;
+                content: "";
+                border: 40px solid transparent; 
+                border-right: 0;
+                border-left-color: black;  
+                border-width: 5px 0 5px 20px;
+                height: 0;
+                width: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Ряд активності металів</h2>
+        <table align="center" border="2px">
+            <td class="color_red">Li</td>
+            <td class="color_red">K</td>
+            <td class="color_red">Ba</td>
+            <td class="color_red">Sr</td>
+            <td class="color_red">Ca</td>
+            <td class="color_red">Na</td>
+            <td class="color_red">Mg</td>
+            <td class="color_red">Be</td>
+            <td class="color_red">Al</td>
+            <td class="color_red">Mn</td>
+            <td class="color_red">Zn</td>
+            <td class="color_red">Cr</td>
+            <td class="color_red">Fe</td>
+            <td class="color_red">Cd</td>
+            <td class="color_red">Co</td>
+            <td class="color_red">Ni</td>
+            <td class="color_red">Sn</td>
+            <td class="color_red">Pb</td>
+            <td class="color_white">(H<sub>2</sub>)</td>
+            <td class="color_blue">Bi</td>
+            <td class="color_blue">Cu</td>
+            <td class="color_blue">Ag</td>
+            <td class="color_blue">Hg</td>
+            <td class="color_blue">Pt</td>
+            <td class="color_blue">Au</td>
+        </table>
+        <p>Активність металів зменшується</p>
+        <div class="arrow"></div>
+    </body>
+</html>

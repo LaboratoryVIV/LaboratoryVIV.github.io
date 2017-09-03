@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Laboratory VIV</title>
-        <link rel="stylesheet" type="text/css" href="styles/reset000.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/reset.css"/>
         <link rel="stylesheet" type="text/css" href="styles/blocks.css"/>
         <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
         <link rel="icon" type="image/vnd.microsoft.icon" href="media/images/icons/icon.ico"/>
@@ -11,11 +11,7 @@
         <meta name="description" content="Laboratory VIV Project Site"/>
         <meta name="copyright" lang="uk" content="APPDigitalSphere Inc."/>
         <style>
-            big {
-                font-size: 42px;
-                font-weight: bold;
-                margin-left: 10px;
-            }
+            .header {font-weight: bold;}
             .footer_text1 {
                 margin-left: 20px;
                 text-align: left;
@@ -26,6 +22,10 @@
                 height: 50px;
                 width: 50px;
                 float: right;
+            }
+            img.search_icon {
+                height: 20px;
+                width: 20px;
             }
             img.footer_image {
                 height: 35px;
@@ -42,21 +42,28 @@
         <header id="header">
             <div class="header_container">
                 <div class="header">
-                    <big>
+                    <div class="header_big">
                         <span style="color: magenta;">La</span>
                         <span style="color: orange;">B</span>
                         <span style="color: blue;">O</span>
-                        <span style="color: #000000;"><sub>R</sub></span>
+                        <span style="color: #000000;"><sub class="header">R</sub></span>
                         <span style="color: red;">At</span>
                         <span style="color: blue;">O</span>
-                        <span style="color: #000000;"><sub>R</sub></span>
+                        <span style="color: #000000;"><sub class="header">R</sub></span>
                         <span style="color: green;">Y</span>
                         <span style="color: darkgrey;">|||</span>
                         <span style="color: yellow;">V</span>
                         <span style="color: #A349A4;">I</span>
                         <span style="color: darkgrey;">(V)</span>
-                        <sub><sub><a class="linkclass" target="content_target" href="content.html"><img class="header_image" src="media/images/icons/icon.png"></a></sub></sub>
-                    </big>
+                        <sub class="header"><sub class="header"><a class="linkclass" href="/"><img class="header_image" src="media/images/icons/icon.png"></a></sub></sub>
+                    </div>
+                    <br>
+                    <div class="search_box">
+                        <div class="search_container">
+                            <input style="color: white;" id="search" name="search" type="search" placeholder="Пошук ще не працює..."/>
+                            <span class="icon"><img class="search_icon" src="media/images/icons/search.png"></img></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
@@ -68,15 +75,16 @@
                     <h2>Меню сайту</h2>
                     <ul>
                         <li><a class="linkclass" target="content_target" href="content.html">Головна</a></li>
-                        <li class="menu">Матеріали
-                            <ul>
-                                <li><a class="linkclass" target="content_target" href="table_of_the_elements.html">Перiодична таблиця</a></li>
-                                <li><a class="linkclass" target="content_target" href="solubility.html">Таблиця розчинностi</a></li>
-                                <!--<li><a class="linkclass" target="content_target" href="organic_reagents.html">Органiчна хiмiя</a></li>-->
-                                <li><a class="linkclass" target="content_target" href="prefixes.html">Латинськi префiкси речовин</a></li>
-                            </ul>
-                        </li>
-                        <!--<li><a class="linkclass" target="content_target" href="help.html">Допомога</a></li>-->
+                        <li class="menu">Матеріали</li>
+                        <ul style="margin-left: -20px;">
+                            <li><a class="linkclass" target="content_target" href="chemistry/materials/table_of_the_elements.html">Перiодична таблиця</a></li>
+                            <li><a class="linkclass" target="content_target" href="chemistry/materials/solubility.html">Таблиця розчинностi</a></li>
+                            <li><a class="linkclass" target="content_target" href="chemistry/materials/line_activity_of_metals.html">Ряд активності металів</a></li>
+                            <li><a class="linkclass" target="content_target" href="chemistry/materials/indicators.html">Індикатори</a></li>
+                        <!--<li><a class="linkclass" target="content_target" href="chemistry/materials/organic_reagents.html">Органiчна хiмiя</a></li>-->
+                            <li><a class="linkclass" target="content_target" href="chemistry/materials/prefixes.html">Префiкси речовин</a></li>
+                        </ul>
+                    <!--<li><a class="linkclass" target="content_target" href="help.html">Допомога</a></li>-->
                         <li><a class="linkclass" target="content_target" href="about.html">Про проект</a></li>
                     </ul>
                 </div>
@@ -90,7 +98,7 @@
         </div>
 
 
-        <div style="clear: both; visibility: none;"></div>
+        <div class="clearfix"></div>
 
 
         <footer>
@@ -98,7 +106,7 @@
                 <div class="footer">
                     <p class="footer_text1">Copyright &copy, Laboratory VIV<br>2017</p>
                     <div class="footer_images" align="right">
-                        <a class="linkclass" target="content_target" href="content.html"><img class="footer_image" src="media/images/icons/icon.png"></a>
+                        <a class="linkclass" href="/"><img class="footer_image" src="media/images/icons/icon.png"></a>
                         <a class="linkclass" href="#header"><img class="footer_image" src="media/images/icons/up.png"></a>
                     </div>
                 </div>

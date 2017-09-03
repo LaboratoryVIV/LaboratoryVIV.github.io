@@ -1,16 +1,15 @@
-html, body, body div, span, object, iframe, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+html, body, body div, object, iframe, blockquote, pre, abbr, address, cite, code, del, dfn, em, h1, h2, h3, h4, h5, h6, img, ins, kbd, p, q, samp, small, strong, span, sub, sup, var, b, i, dl, dt, dd, ol, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font-weight: normal;
-    vertical-align: baseline;
+    text-decoration: none;
+    vertical-align: center;
     background: transparent;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-}
+
 
 article, aside, figure, footer, header, nav, section, details, summary {
     display: block;
@@ -58,9 +57,12 @@ blockquote, q {
 }
 
 blockquote:before, blockquote:after, q:before, q:after {
-    content: ''; content: none;
+    content: '';
+    content: none;
 }
-
+a:link, a:visited, a:hover {
+    text-decoration: none;
+}
 a {
     margin: 0;
     padding: 0;
@@ -79,24 +81,29 @@ abbr[title], dfn[title] {
 }
 
 /* tables still need cellspacing="0" in the markup */
+table, tr, th, td {
+    vertical-align: center;
+}
 table {
-    border-collapse: collapse; 
+/*  border-collapse: collapse; */
     border-spacing: 0;
+    border: 0;
+    table-layout: fixed;
+    font-size: inherit;
+    font: 95%;
 }
 th {
-    font-weight: bold; 
-    vertical-align: bottom;
+    font-weight: bold;
 }
 td {
-    font-weight: normal; 
-    vertical-align: top;
+    font-weight: normal;
 }
 
 hr {
-    display: block; 
+    display: block;
     height: 1px; 
     border: 0; 
-    border-top: 1px solid #ccc; 
+    border-top: 2px solid #ccc; 
     margin: 1em 0; 
     padding: 0;
 }
@@ -124,28 +131,28 @@ input[type="checkbox"] {
 .ie6 input {
     vertical-align: text-bottom;
 }
-
 select, input, textarea {
-    font: 99% sans-serif;
+    font: 90% sans-serif;
 }
-
-table {
-    font-size: inherit;
-    font: 100%;
-}
-
 small {
-    font-size: 85%;
+    font-size: 80%;
 }
-
-strong {
+b, strong {
     font-weight: bold;
 }
-
-td, td img {
-    vertical-align: top;
+em {
+    font-weight: italic;
 }
-
+ul, li, ol {
+    margin-left: 0;
+    font-size: 100%;
+}
+li {
+    list-style-type: dotted;
+}
+td img {
+    vertical-align: center;
+}
 /* Make sure sup and sub don't mess with your line-heights http://gist.github.com/413930 */
 sub, sup {
     font-size: 75%; 
@@ -156,7 +163,7 @@ sup {
     top: -0.5em;
 }
 sub {
-    bottom: -0.25em;
+    bottom: -0.2em;
 }
 
 /* standardize any monospaced elements */

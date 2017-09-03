@@ -6,6 +6,10 @@ header {
     bottom: 5px;
     height: 100px;
     width: 100%;
+
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
 }
 div.header_container {
     position: absolute;
@@ -15,6 +19,10 @@ div.header_container {
     bottom: 5px;
     background: #00A2E8;
     height: inherit;
+    
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
 }
 div.header {
     position: absolute;
@@ -23,6 +31,69 @@ div.header {
     right: 5px;
     bottom: 40px;
     background: #99D9EA;
+    
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+div.header_big {
+    font-size: 42px;
+    margin-left: 10px;
+    margin: 5px, 5px, 5px, 5px;
+}
+
+div.search_box {
+    position: relative;
+    float: right;
+    width: 350px;
+    height: 22px;
+    vertical-align: center;
+}
+div.search_container {
+    position: absolute;
+    background: transparent;
+    vertical-align: center;
+    white-space: nowrap;
+    width: 300px;
+}
+div.search_container input#search {
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 10pt;
+    font-weight: bold;
+    width: 22px;
+    height: 22px;
+    background: blue;
+    border: none;
+    float: right;
+    color: #000000;
+    padding-right: 25px;
+
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+
+    -webkit-transition: width 1.5s ease-out;
+    -moz-transition:    width 1.5s ease-out;
+    -ms-transition:     width 1.5s ease-out;
+    -o-transition:      width 1.5s ease-out;
+    transition:         width 1.5s ease-out;
+}
+div.search_container:hover input#search {width: 300px;}
+div.search_container .icon .search_icon {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 3;
+    color: #4f5b66;
+}
+div.search_container input#search::-webkit-input-placeholder {color: #000000;}
+div.search_container input#search:-moz-placeholder           {color: #000000;}  /* Firefox 18- */
+div.search_container input#search::-moz-placeholder          {color: #000000;}  /* Firefox 19+ */
+div.search_container input#search:-ms-input-placeholder      {color: #000000;}
+div.search_container input#search:hover, div.search_container input#search:focus, div.search_container input#search:active {
+    outline: none;
+    width: 300px;
+    background: #ffffff;
 }
 
 
@@ -35,6 +106,10 @@ div.menu_content_container {
     bottom: 5px;
     min-height: 500px;
     width: 100%;
+    
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
 }
 
 nav {
@@ -46,6 +121,10 @@ nav {
     background: #00A2E8;
     min-height: inherit;
     width: 250px;
+    
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
 }
 div.menu {
     position: absolute;
@@ -54,6 +133,10 @@ div.menu {
     right: 5px;
     bottom: 5px;
     background: #99D9EA;
+    
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
 }
 
 article {
@@ -66,6 +149,10 @@ article {
     background: #00A2E8;
     min-height: inherit;
     width: auto;
+    
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
 }
 div.content {
     position: absolute;
@@ -74,13 +161,17 @@ div.content {
     right: 5px;
     bottom: 5px;
     background: #99D9EA;
+    
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
 }
 iframe#content {
     top: 5px;
     left: 5px;
     right: 5px;
     bottom: 5px;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
 }
 
@@ -94,6 +185,10 @@ footer {
     bottom: 5px;
     height: 100px;
     width: 100%;
+    
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
 }
 div.footer_container {
     position: absolute;
@@ -103,6 +198,10 @@ div.footer_container {
     bottom: 5px;
     background: #00A2E8;
     height: inherit;
+    
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
 }
 div.footer {
     position: absolute;
@@ -111,6 +210,10 @@ div.footer {
     right: 5px;
     bottom: 5px;
     background: #99D9EA;
+    
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
 }
 div.footer_images {
     position: absolute;

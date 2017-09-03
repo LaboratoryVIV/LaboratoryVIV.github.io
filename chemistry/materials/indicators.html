@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../../styles/styles.css"/>
+        <meta http-equiz="Content-Type" content="text/html" charset="utf-8"/>
+        <style>
+            table, tr, td {
+                border-spacing: 4px;
+                border-style: solid;
+                border-color: black;
+                background: transparent;
+                table-layout: fixed;
+                text-align: center;
+            }
+            tr {
+                height: 60px;
+            }
+            td {
+                width: 120px;
+            }
+            
+            .indicators_head {
+                font-weight: bold;
+                font-size: 16px;
+            }
+            .indicators_names {
+                font-style: normal;
+                font-size: 14px;
+            }
+            * {
+                font-style: italic;
+                text-align: center;
+                font-size: 12px;
+            }
+            
+            .color_white     {background-color: white;}
+            .color_malynove  {background-color: #FF88BB;}
+            .color_red       {background-color: red;}
+            .color_orange    {background-color: orange;}
+            .color_yellow    {background-color: yellow;}
+            .color_green     {background-color: green;}
+            .color_blue      {background-color: blue;}
+            .color_violet    {background-color: violet;}
+            .color_pink      {background-color: pink;}
+            
+            .color_red_yellow {
+                background:         linear-gradient(top left, red, yellow);
+                background: -webkit-linear-gradient(top left, red, yellow);
+                background:      -o-linear-gradient(top left, red, yellow);
+                background:    -moz-linear-gradient(top left, red, yellow);
+                background:     -ms-linear-gradient(top left, red, yellow);
+                background:  -khtml-linear-gradient(top left, red, yellow);
+            }
+            .color_blue_violet {
+                background:         linear-gradient(top left, blue, violet);
+                background: -webkit-linear-gradient(top left, blue, violet);
+                background:      -o-linear-gradient(top left, blue, violet);
+                background:    -moz-linear-gradient(top left, blue, violet);
+                background:     -ms-linear-gradient(top left, blue, violet);
+                background:  -khtml-linear-gradient(top left, blue, violet);
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Забарвлення <strong>хімічних</strong> індикаторів у різних середовищах</h2>
+        <table align="center" border="2px">
+            <tr>
+                <td class="indicators_head">Назва індикатора ↓</td>
+                <td colspan="3" class="indicators_head">Забарвлення</td>
+            </tr>
+            <tr>
+                <td class="indicators_head">Середовище →</td>
+                <td class="indicators_head">Нейтральне</td>
+                <td class="indicators_head">Кисле</td>
+                <td class="indicators_head">Лужне</td>
+            </tr>
+            <tr>
+                <td class="indicators_names">Універсальний індикатор</td>
+                <td class="color_red_yellow">Червоне у Жовте</td>
+                <td class="color_green">Зелене</td>
+                <td class="color_blue_violet">Синє у Фіолетове</td>
+            </tr>
+            <tr>
+                <td class="indicators_names">Лакмус</td>
+                <td class="color_violet">Фіолетове</td>
+                <td class="color_red">Червоне</td>
+                <td class="color_blue">Синє</td>
+            </tr>
+            <tr>
+                <td class="indicators_names">Метиловий оранжевий</td>
+                <td class="color_orange">Оранжеве</td>
+                <td class="color_pink">Рожеве</td>
+                <td class="color_yellow">Жовте</td>
+            </tr>
+            <tr>
+                <td class="indicators_names">Фенолфталеїн</td>
+                <td class="color_white">Безбарвне</td>
+                <td class="color_white">Безбарвне</td>
+                <td class="color_malynove">Малинове</td>
+            </tr>
+            <tr>
+                <td class="indicators_names">Індігокармін</td>
+                <td>?</td>
+                <td>?</td>
+                <td>?</td>
+            </tr>
+        </table>
+    </body>
+</html>

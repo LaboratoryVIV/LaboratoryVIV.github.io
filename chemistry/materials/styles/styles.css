@@ -1,22 +1,21 @@
 html {
     font-family: "Times New Roman", Georgia, serif;
-}
-body {
     height: 100%;
-    width: 96%;
-    margin-left: 2%;
-    margin-right: 2%;
+    display: block;
 }
 a.linkclass:link {
+    text-decoration: none;
     color: black;
     font-weight: bold;
     font-size: 14px;
 }
 a.linkclass:visited { 
     color: blue;
+    text-decoration: none;
 }
 a.linkclass:hover {
     color: red;
+    text-decoration: none;
 }
 blockquote {
     margin-top: 15px;
