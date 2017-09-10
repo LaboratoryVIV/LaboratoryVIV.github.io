@@ -3,19 +3,18 @@ html {
 }
 body {
     height: 100%;
-    width: 96%;
-    margin-left: 2%;
-    margin-right: 2%;
+    width: 100%;
+    margin: 0;
 }
-a.linkclass:link {
+.linkclass:link {
     color: black;
     font-weight: bold;
     font-size: 14px;
 }
-a.linkclass:visited { 
+.linkclass:visited { 
     color: blue;
 }
-a.linkclass:hover {
+.linkclass:hover {
     color: red;
 }
 blockquote {
@@ -57,6 +56,11 @@ iframe {
     border: none;
     z-index: 100;
     display: block;
+}
+li.menu ul.menu {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
 }
 p {
     margin: 10px;

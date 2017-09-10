@@ -12,6 +12,7 @@
         <meta name="copyright" lang="uk" content="APPDigitalSphere Inc."/>
         <style>
             .header {font-weight: bold;}
+            ul.materials a:link, ul.materials a:visited, ul.materials a:hover {font-weight: normal;}
             .footer_text1 {
                 margin-left: 20px;
                 text-align: left;
@@ -30,11 +31,6 @@
             img.footer_image {
                 height: 35px;
                 width: 35px;
-            }
-            li.menu {
-                color: black;
-                font-weight: bold;
-                font-size: 14px;
             }
         </style>
     </head>
@@ -60,7 +56,7 @@
                     <br>
                     <div class="search_box">
                         <div class="search_container">
-                            <input style="color: white;" id="search" name="search" type="search" placeholder="Пошук ще не працює..."/>
+                            <input style="color: lightblue ;" id="search" name="search" type="search" placeholder="Пошук ще не працює..."/>
                             <span class="icon"><img class="search_icon" src="media/images/icons/search.png"></img></span>
                         </div>
                     </div>
@@ -75,14 +71,14 @@
                     <h2>Меню сайту</h2>
                     <ul>
                         <li><a class="linkclass" target="content_target" href="content.html">Головна</a></li>
-                        <li class="menu">Матеріали</li>
-                        <ul style="margin-left: -20px;">
+                        <li><a class="linkclass" target="content_target" href="chemistry/materials/index.html">Матеріали</a></li>
+                        <ul class="materials" style="margin-left: -20px;">
                             <li><a class="linkclass" target="content_target" href="chemistry/materials/table_of_the_elements.html">Перiодична таблиця</a></li>
                             <li><a class="linkclass" target="content_target" href="chemistry/materials/solubility.html">Таблиця розчинностi</a></li>
                             <li><a class="linkclass" target="content_target" href="chemistry/materials/line_activity_of_metals.html">Ряд активності металів</a></li>
+                            <li><a class="linkclass" target="content_target" href="chemistry/materials/line_of_acids_of_their_power.html">Ряд кислот за їх силою</a></li>
                             <li><a class="linkclass" target="content_target" href="chemistry/materials/indicators.html">Індикатори</a></li>
                         <!--<li><a class="linkclass" target="content_target" href="chemistry/materials/organic_reagents.html">Органiчна хiмiя</a></li>-->
-                            <li><a class="linkclass" target="content_target" href="chemistry/materials/prefixes.html">Префiкси речовин</a></li>
                         </ul>
                     <!--<li><a class="linkclass" target="content_target" href="help.html">Допомога</a></li>-->
                         <li><a class="linkclass" target="content_target" href="about.html">Про проект</a></li>

@@ -48,6 +48,7 @@ div.search_box {
     width: 350px;
     height: 22px;
     vertical-align: center;
+    margin-right: 3px;
 }
 div.search_container {
     position: absolute;
@@ -65,7 +66,6 @@ div.search_container input#search {
     background: blue;
     border: none;
     float: right;
-    color: #000000;
     padding-right: 25px;
 
     -webkit-border-radius: 1px;
@@ -86,10 +86,11 @@ div.search_container .icon .search_icon {
     z-index: 3;
     color: #4f5b66;
 }
-div.search_container input#search::-webkit-input-placeholder {color: #000000;}
-div.search_container input#search:-moz-placeholder           {color: #000000;}  /* Firefox 18- */
-div.search_container input#search::-moz-placeholder          {color: #000000;}  /* Firefox 19+ */
-div.search_container input#search:-ms-input-placeholder      {color: #000000;}
+div.search_container input#search:placeholder                   {color: lightblue ;}
+div.search_container input#search::-webkit-input-placeholder {color: lightblue ;}
+div.search_container input#search:-moz-placeholder           {color: lightblue ;}  /* Firefox 18- */
+div.search_container input#search::-moz-placeholder          {color: lightblue ;}  /* Firefox 19+ */
+div.search_container input#search:-ms-input-placeholder      {color: lightblue ;}
 div.search_container input#search:hover, div.search_container input#search:focus, div.search_container input#search:active {
     outline: none;
     width: 300px;
@@ -104,7 +105,7 @@ div.menu_content_container {
     left: 5px;
     right: 5px;
     bottom: 5px;
-    min-height: 500px;
+    min-height: 750px;
     width: 100%;
     
     -webkit-border-radius: 1px;
@@ -120,7 +121,7 @@ nav {
     bottom: 5px;
     background: #00A2E8;
     min-height: inherit;
-    width: 250px;
+    width: 280px;
     
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
@@ -141,7 +142,7 @@ div.menu {
 
 article {
     position: absolute;
-    margin-left: 250px;
+    margin-left: 280px;
     top: 5px;
     left: 5px;
     right: 5px;
