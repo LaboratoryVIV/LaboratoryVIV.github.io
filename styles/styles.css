@@ -6,17 +6,6 @@ body {
     width: 100%;
     margin: 0;
 }
-.linkclass:link {
-    color: black;
-    font-weight: bold;
-    font-size: 14px;
-}
-.linkclass:visited { 
-    color: blue;
-}
-.linkclass:hover {
-    color: red;
-}
 blockquote {
     margin-top: 15px;
     margin-left: 65px;
@@ -75,6 +64,17 @@ strong {
     text-decoration: underline;
 }
 
+.linkclass:link {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.linkclass:visited { 
+    color: blue;
+}
+.linkclass:hover {
+    color: red;
+}
 .img {
     border: 3px outset grey;
     margin: 20px, 20px, 20px, 20px;
@@ -82,3 +82,28 @@ strong {
 .img:hover {
     border: 3px outset blue;
 }
+
+
+
+
+
+.left-align {
+    text-align: left;
+}
+.right-align {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bgcolor_white {background: white;}
+.bgcolor_red {background: #FA5858;}
+.bgcolor_orange {background: #FE9A2E;}
+.bgcolor_yellow {background: yellow;}
+.bgcolor_green {background: #67F564;}
+.bgcolor_lightgreen {background: lightgreen;}
+.bgcolor_blue {background: #2F80FF;}
+.bgcolor_lightblue {background: #00A2E8;}
+.bgcolor_morelightblue {background: #99D9EA;}

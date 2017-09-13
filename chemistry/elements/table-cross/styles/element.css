@@ -1,21 +1,18 @@
 div.left-align {
     position: absolute;
     left: 0px;
-    text-align: left;
     height: 60px;
     width: 50%;
 }
 div.right-align {
     position: absolute;
     right: 0px;
-    text-align: right;
     height: 60px;
     width: 50%;
 }
 
 div.element-symbol {
     height: 30px;
-    width: 15px;
 }
 div.element-name {
 }
@@ -44,10 +41,9 @@ body.element {
     height: 60px;
     width: 100px;
     margin: 0;
-    border: 1px solid black;
 }
 html * {
-    font-size: 40%;
+    font-size: 7px;
 }
 div {
     margin-top: 2px;
@@ -63,7 +59,7 @@ span.h1 {
 span.h2 {
     font-size: 16px;
 }
-span.h2, span.p {
+span.p {
     margin-top: 2px;
     margin-left: 2px;
     margin-right: 2px;

@@ -103,7 +103,7 @@ hr {
     display: block;
     height: 1px; 
     border: 0; 
-    border-top: 2px solid #ccc; 
+    border-top: 2px solid #00A2E8; 
     margin: 1em 0; 
     padding: 0;
 }
@@ -179,6 +179,10 @@ pre, code, kbd, samp {
 /* Webkit browsers add a 2px margin outside the chrome of form elements */
 button, input, select, textarea {
     margin: 0;
+}
+
+button {
+    border: none;
 }
 
 /* make buttons play nice in IE */

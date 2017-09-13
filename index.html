@@ -10,6 +10,12 @@
         <meta name="keywords" content="Laboratory VIV, Chemistry, lab"/>
         <meta name="description" content="Laboratory VIV Project Site"/>
         <meta name="copyright" lang="uk" content="APPDigitalSphere Inc."/>
+        <script type="text/javascript">
+            function resizeIframe(obj) {
+                obj.style.height = 0;
+                obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+            }
+        </script>
         <style>
             .header {font-weight: bold;}
             ul.materials a:link, ul.materials a:visited, ul.materials a:hover {font-weight: normal;}
@@ -36,8 +42,8 @@
     </head>
     <body>
         <header id="header">
-            <div class="header_container">
-                <div class="header">
+            <div class="header_container bgcolor_lightblue">
+                <div class="header bgcolor_morelightblue">
                     <div class="header_big">
                         <span style="color: magenta;">La</span>
                         <span style="color: orange;">B</span>
@@ -56,7 +62,7 @@
                     <br>
                     <div class="search_box">
                         <div class="search_container">
-                            <input style="color: lightblue ;" id="search" name="search" type="search" placeholder="Пошук ще не працює..."/>
+                            <input style="color: lightblue;" id="search" name="search" type="search" placeholder="Пошук ще не працює..."/>
                             <span class="icon"><img class="search_icon" src="media/images/icons/search.png"></img></span>
                         </div>
                     </div>
@@ -65,9 +71,9 @@
         </header>
 
 
-        <div class="menu_content_container">
-            <nav>
-                <div class="menu">
+        <div class="menu_content_container" onload="resizeIframe(this)">
+            <nav class="bgcolor_lightblue">
+                <div class="menu bgcolor_morelightblue">
                     <h2>Меню сайту</h2>
                     <ul>
                         <li><a class="linkclass" target="content_target" href="content.html">Головна</a></li>
@@ -86,9 +92,9 @@
                 </div>
             </nav>
 
-            <article>
-                <div class="content">
-                    <iframe id="content" name="content_target" src="content.html"></iframe>
+            <article class="bgcolor_lightblue" onload="resizeIframe(this)">
+                <div class="content bgcolor_morelightblue" onload="resizeIframe(this)">
+                    <iframe id="content" name="content_target" onload="resizeIframe(this)" src="content.html"></iframe>
                 </div>
             </article>
         </div>
@@ -98,8 +104,8 @@
 
 
         <footer>
-            <div class="footer_container">
-                <div class="footer">
+            <div class="footer_container bgcolor_lightblue">
+                <div class="footer bgcolor_morelightblue">
                     <p class="footer_text1">Copyright &copy, Laboratory VIV<br>2017</p>
                     <div class="footer_images" align="right">
                         <a class="linkclass" href="/"><img class="footer_image" src="media/images/icons/icon.png"></a>

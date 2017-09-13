@@ -17,7 +17,6 @@ div.header_container {
     left: 5px;
     right: 5px;
     bottom: 5px;
-    background: #00A2E8;
     height: inherit;
     
     -webkit-border-radius: 1px;
@@ -30,7 +29,6 @@ div.header {
     left: 5px;
     right: 5px;
     bottom: 40px;
-    background: #99D9EA;
     
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
@@ -119,7 +117,6 @@ nav {
     left: 5px;
     right: 5px;
     bottom: 5px;
-    background: #00A2E8;
     min-height: inherit;
     width: 280px;
     
@@ -133,7 +130,6 @@ div.menu {
     left: 5px;
     right: 5px;
     bottom: 5px;
-    background: #99D9EA;
     
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
@@ -147,7 +143,6 @@ article {
     left: 5px;
     right: 5px;
     bottom: 5px;
-    background: #00A2E8;
     min-height: inherit;
     width: auto;
     
@@ -161,7 +156,6 @@ div.content {
     left: 5px;
     right: 5px;
     bottom: 5px;
-    background: #99D9EA;
     
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
@@ -197,7 +191,6 @@ div.footer_container {
     left: 5px;
     right: 5px;
     bottom: 5px;
-    background: #00A2E8;
     height: inherit;
     
     -webkit-border-radius: 1px;
@@ -210,7 +203,6 @@ div.footer {
     left: 5px;
     right: 5px;
     bottom: 5px;
-    background: #99D9EA;
     
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
