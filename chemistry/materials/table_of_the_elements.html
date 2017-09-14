@@ -5,18 +5,20 @@
         <link rel="stylesheet" type="text/css" href="../../styles/styles.css"/>
         <meta content="text/html"; http-equiz="Content-Type" charset="utf-8"/>
         <style>
+            html {min-width: 100%;}
             table {
                 border-color: white;
                 border-spacing: 3px;
                 text-align: center;
+                min-width: 100%;
             }
             tr {
                 margin: 0;
                 padding: 0;
             }
             td {
-                height: 60px;
-                width: 100px;
+                height: 70px;
+                width: 110px;
                 margin: 0;
                 padding: 0;
             }
@@ -25,8 +27,9 @@
                 padding: 0;
                 height: inherit;
                 width: inherit;
-                overflow:hidden;
             }
+            iframe * {overflow-x: hidden; overflow-y: hidden;}
+            iframe::-webkit-scrollbar {width: 0px;}
             
             .groups {
                 font-size: 16px;
@@ -104,8 +107,8 @@
                 <td class="nonmetals"><iframe class="element-iframe" src="../elements/table-cross/C.html"></iframe></td>
                 <td class="nonmetals"><iframe class="element-iframe" src="../elements/table-cross/N.html"></iframe></td>
                 <td class="nonmetals"><iframe class="element-iframe" src="../elements/table-cross/O.html"></iframe></td>
-                <td class="halogens"><small><a class="linkclass" href="elements/F.html" title="Флуор">F</a></small></td>
-                <td class="inertial_gases"><small><a class="linkclass" href="elements/Ne.html" title="Неон">Ne</a></small></td>
+                <td class="halogens"><iframe class="element-iframe" src="../elements/table-cross/F.html"></iframe></td>
+                <td class="inertial_gases"><iframe class="element-iframe" src="../elements/table-cross/Ne.html"></iframe></td>
             </tr>
             <tr>
                 <td>3</td>

@@ -43,7 +43,6 @@ h4 {
 }
 iframe {
     border: none;
-    z-index: 100;
     display: block;
 }
 li.menu ul.menu {
@@ -97,6 +96,8 @@ strong {
 .bold {
     font-weight: bold;
 }
+
+.display_none {display: none;}
 
 .bgcolor_white {background: white;}
 .bgcolor_red {background: #FA5858;}
