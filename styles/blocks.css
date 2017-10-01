@@ -1,4 +1,4 @@
-html, body, header, div.menu_content_container, footer {
+body, header, div.menu_content_container, footer {
     min-width: 700px;
     max-width: 2000px;
 }
