@@ -12,7 +12,7 @@
         <meta name="description" content="Laboratory VIV Project Site"/>
         <meta name="copyright" lang="uk" content="APPDigitalSphere Inc."/>
         <script type="text/javascript">
-            function resizeIframe(obj) {
+            /*function resizeIframe(obj) {
                 obj.style.height = 0;
                 obj.style.height = obj.scrollHeight + 'px';
 
@@ -24,7 +24,23 @@
 
                 document.getElementsByClassName('menu_content_container').style.height = 0;
                 document.getElementsByClassName('menu_content_container').style.height = document.getElementsByClassName('menu_content_container').scrollHeight + 'px';
-            }
+            }*/
+            $(document).ready(function(){
+				$('#getContent').click(function(){
+					var old = $('#content').html();
+					var h = $('#content').height();
+					h = h + 330;
+					$('#content').height(h);
+					$.ajax({
+						url: "/content.html",
+						cache: false,
+						success: function(html){
+						$("#content").append(old + html);
+					}
+					});
+					return false;
+				});
+			});
         </script>
         <style>
             .header_big span {margin-left: -2px; margin-right: -2px;}
@@ -104,7 +120,7 @@
             </nav>
 
             <article class="bgcolor_lightblue">
-                <div class="content bgcolor_morelightblue">
+                <div id="content" class="content bgcolor_morelightblue">
                     <iframe id="content" name="content_target" onload="resizeIframe(this)" src="content.html"></iframe>
                 </div>
             </article>
