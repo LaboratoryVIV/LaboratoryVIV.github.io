@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: /.dump/
+Disallow: /admin-cpanel/
+Disallow: /download/clean-up/
+Disallow: /redirect/
+Disallow: /readme.md

@@ -40,6 +40,7 @@ h4 {
     text-align: left;
     font-size: 15px;
     font-style: bold;
+    padding-left: 12%;
 }
 iframe {
     border: none;
@@ -63,23 +64,48 @@ strong {
     text-decoration: underline;
 }
 
+
+
+
+
 .linkclass:link {
     color: black;
     font-weight: bold;
     font-size: 14px;
 }
 .linkclass:visited { 
-    color: blue;
+    color: darkblue;
 }
 .linkclass:hover {
     color: red;
 }
+
+
 .img {
     border: 3px outset grey;
     margin: 20px, 20px, 20px, 20px;
 }
 .img:hover {
     border: 3px outset blue;
+}
+
+
+ul.menu_styles * {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.menu_styles li a {font-size: 14px;}
+ul.menu_styles li {
+    margin: 1% 5% 1% 5%;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+
+div.block {
+    display: inline-block;
+    vertical-align: top;
 }
 
 
@@ -94,7 +120,6 @@ strong {
 
 .display_none {display: none;}
 
-
 .bgcolor_white          {background: white;}
 .bgcolor_darkgrey       {background: darkgrey;}
 .bgcolor_black          {background: #000000;}
@@ -102,17 +127,17 @@ strong {
 .bgcolor_darkmagenta    {background: #EF99CC;}
 .bgcolor_magenta        {background: magenta;}
 .bgcolor_red            {background: red;}
+.bgcolor_lightred       {background: #FF687B;}
 .bgcolor_orange         {background: #FE9A2E;}
 .bgcolor_yellow         {background: yellow;}
 .bgcolor_green          {background: green;}
 .bgcolor_lightgreen     {background: #67F564;}
 .bgcolor_blue           {background: blue;}
-.bgcolor_lightblue      {background: #00A2E8;}
-.bgcolor_morelightblue  {background: #99D9EA;}
+.bgcolor_lightblue      {background: #10B2D8;}
+.bgcolor_morelightblue  {background: #A9E9FA;}
 .bgcolor_2xmorelightblue{background: #C0FFFF;}
 .bgcolor_violet         {background: violet;}
 .bgcolor_pink           {background: pink;}
-.bgcolor_Raspberry      {background: #FF687B;}
 
 .color_white            {color: white;}
 .color_darkgrey         {color: darkgrey;}
@@ -121,14 +146,14 @@ strong {
 .color_darkmagenta      {color: #EF99CC;}
 .color_magenta         {color: magenta;}
 .color_red              {color: red;}
+.color_lightred       {background: #FF687B;}
 .color_orange           {color: #FE9A2E;}
 .color_yellow           {color: yellow;}
 .color_green            {color: green;}
 .color_lightgreen       {color: #67F564;}
 .color_blue             {color: blue;}
-.color_lightblue        {color: #00A2E8;}
-.color_morelightblue    {color: #99D9EA;}
+.color_lightblue        {color: #00A2D8;}
+.color_morelightblue    {color: #A9E9FA;}
 .color_2xmorelightblue  {background: #C0FFFF;}
 .color_violet           {color: violet;}
 .color_pink             {color: pink;}
-.color_Raspberry        {color: #FF687B;}

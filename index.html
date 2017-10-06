@@ -7,9 +7,9 @@
         <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
         <link rel="icon" type="image/vnd.microsoft.icon" href="media/images/icons/icon.ico"/>
         <meta content="text/html"; charset="utf-8" http-equiz="Content-Type"/>
-        <meta name="viewport" content="width=devive-width, initial-scale=1.0"/>
-        <meta name="keywords" content="Laboratory VIV, Chemistry, lab"/>
-        <meta name="description" content="Laboratory VIV Project Site"/>
+        <meta name="viewport" content="width=devive-width, initial-scale=0.9"/>
+        <meta name="keywords" content="Laboratory VIV, хімія, довідник з хімії"/>
+        <meta name="description" content="Laboratory VIV - невеликий довідник з хімії"/>
         <meta name="copyright" lang="uk" content="APPDigitalSphere Inc."/>
         <script type="text/javascript">
             function resizeIframe(obj) {
@@ -17,17 +17,17 @@
                 obj.style.height = obj.scrollHeight + 'px';
 
                 document.getElementsByClassName('content').style.height = 0;
-                document.getElementsByClassName('content').style.height = document.getElementsByClassName('content').scrollHeight + 'px';
+                document.getElementsByClassName('content').style.height = obj.scrollHeight + 10 + 'px';
 
                 document.getElementsByClassName('article').style.height = 0;
-                document.getElementsByClassName('article').style.height = document.getElementsByClassName('article').scrollHeight + 'px';
+                document.getElementsByClassName('article').style.height = document.getElementsByClassName('content').scrollHeight + 10 + 'px';
 
                 document.getElementsByClassName('menu_content_container').style.height = 0;
-                document.getElementsByClassName('menu_content_container').style.height = document.getElementsByClassName('menu_content_container').scrollHeight + 'px';
+                document.getElementsByClassName('menu_content_container').style.height = document.getElementsByClassName('article').scrollHeight + 10 + 'px';
             }
         </script>
         <style>
-            .header_big span {margin-left: -2px; margin-right: -2px;}
+            .header_big span {margin: auto -2px auto -2px;}
             .header {font-weight: bold;}
             ul.materials a:link, ul.materials a:visited, ul.materials a:hover {font-weight: normal;}
             .footer_text1 {
@@ -49,25 +49,26 @@
                 height: 35px;
                 width: 35px;
             }
+            div.header_big {border-radius: 1px;}
         </style>
     </head>
     <body>
         <header id="header">
             <div class="header_container bgcolor_lightblue">
                 <div class="header bgcolor_morelightblue">
-                    <div class="header_big">
+                    <div class="header_big bgcolor_2xmorelightblue">
                         <span class="color_magenta">La</span>
                         <span class="color_orange">B</span>
                         <span class="color_blue">O</span>
-                        <span class="color_black"><sub class="header">R</sub></span>
+                        <span><sub class="header color_darkgrey">R</sub></span>
                         <span class="color_red">At</span>
                         <span class="color_blue">O</span>
-                        <span class="color_black"><sub class="header">R</sub></span>
+                        <span><sub class="header color_darkgrey">R</sub></span>
                         <span class="color_green">Y</span>
-                        <span class="color_darkgrey">|||</span>
+                        <span class="color_lightblue">|||</span>
                         <span class="color_yellow">V</span>
                         <span style="color: #A349A4;">I</span>
-                        <span class="color_darkgrey">(V)</span>
+                        <span class="color_lightblue">(V)</span>
                         <sub class="header"><sub class="header"><a class="linkclass" href="/"><img class="header_image" src="media/images/icons/icon.png"></a></sub></sub>
                     </div>
                     <br>
@@ -86,26 +87,26 @@
             <nav class="bgcolor_lightblue">
                 <div class="menu bgcolor_morelightblue">
                     <h2>Меню сайту</h2>
-                    <ul>
-                        <li><a class="linkclass" target="content_target" href="content.html">Головна</a></li>
-                        <li><a class="linkclass" target="content_target" href="chemistry/materials/index.html">Матеріали</a></li>
-                        <ul class="materials" style="margin-left: -20px;">
-                            <li><a class="linkclass" target="content_target" href="chemistry/materials/table_of_the_elements-expanded.html">Перiодична таблиця</a></li>
-                            <li><a class="linkclass" target="content_target" href="chemistry/materials/solubility_table.html">Таблиця розчинностi</a></li>
-                            <li><a class="linkclass" target="content_target" href="chemistry/materials/line_activity_of_metals.html">Ряд активності металів</a></li>
-                            <li><a class="linkclass" target="content_target" href="chemistry/materials/line_of_acids_of_their_power.html">Ряд кислот за їх силою</a></li>
-                            <li><a class="linkclass" target="content_target" href="chemistry/materials/indicators_table.html">Таблиця індикаторів</a></li>
-                        <!--<li><a class="linkclass" target="content_target" href="chemistry/materials/organic_reagents.html">Органiчна хiмiя</a></li>-->
+                    <ul class="menu_styles" style="margin-left: -45px;">
+                        <li class="bgcolor_lightblue"><a class="linkclass" target="content_target" href="content.html">Головна</a></li>
+                        <li class="bgcolor_lightblue"><a class="linkclass" target="content_target" href="chemistry/materials/index.html">Матеріали</a></li>
+                        <ul class="materials menu_styles" style="margin-left: 20px;">
+                            <li class="bgcolor_white"><a class="linkclass" target="content_target" href="chemistry/materials/table_of_the_elements-expanded.html">Перiодична таблиця</a></li>
+                            <li class="bgcolor_white"><a class="linkclass" target="content_target" href="chemistry/materials/solubility_table.html">Таблиця розчинностi</a></li>
+                            <li class="bgcolor_white"><a class="linkclass" target="content_target" href="chemistry/materials/line_activity_of_metals.html">Ряд активності металів</a></li>
+                            <li class="bgcolor_white"><a class="linkclass" target="content_target" href="chemistry/materials/line_of_acids_of_their_power.html">Ряд кислот за їх силою</a></li>
+                            <li class="bgcolor_white"><a class="linkclass" target="content_target" href="chemistry/materials/indicators_table.html">Таблиця індикаторів</a></li>
                         </ul>
+                        <li class="bgcolor_lightblue"><a class="linkclass" target="content_target" href="download/index.html">Завантаження матеріалів</a></li>
                     <!--<li><a class="linkclass" target="content_target" href="help.html">Допомога</a></li>-->
-                        <li><a class="linkclass" target="content_target" href="about.html">Про проект</a></li>
+                        <li class="bgcolor_lightblue"><a class="linkclass" target="content_target" href="about.html">Про проект</a></li>
                     </ul>
                 </div>
             </nav>
 
-            <article class="bgcolor_lightblue">
+            <article class="article bgcolor_lightblue">
                 <div class="content bgcolor_morelightblue">
-                    <iframe id="content" name="content_target" onload="resizeIframe(this)" src="content.html"></iframe>
+                    <iframe id="content" name="content_target" src="content.html"></iframe>
                 </div>
             </article>
         </div>

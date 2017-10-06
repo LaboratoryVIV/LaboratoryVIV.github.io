@@ -1,1 +1,10 @@
 AddDefaultCharset utf-8
+
+DirectoryIndex index.html
+
+<Files readme.md>
+Order allow, deny
+Deny from all
+</Files readme.md>
+
+Redirect 301 /index.html http://google.com
